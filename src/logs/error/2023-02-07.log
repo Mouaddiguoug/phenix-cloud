@@ -1,0 +1,913 @@
+2023-02-07 09:38:47 error: uncaughtException: mysql_1.default.createPool(...).Promise is not a function
+TypeError: mysql_1.default.createPool(...).Promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:24:4)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+2023-02-07 09:38:54 error: uncaughtException: mysql_1.default.createPool(...).Promise is not a function
+TypeError: mysql_1.default.createPool(...).Promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:24:4)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+2023-02-07 09:40:36 error: uncaughtException: mysql_1.default.createPool(...).Promise is not a function
+TypeError: mysql_1.default.createPool(...).Promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:25:4)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+2023-02-07 09:41:44 error: uncaughtException: mysql_1.default.createPool(...).promise is not a function
+TypeError: mysql_1.default.createPool(...).promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:25:4)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+2023-02-07 09:45:42 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 09:46:45 error: uncaughtException: mysql_1.default.createPool(...).Promise is not a function
+TypeError: mysql_1.default.createPool(...).Promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:24:6)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+2023-02-07 09:48:59 error: uncaughtException: mysql_1.default.createPool(...).promise is not a function
+TypeError: mysql_1.default.createPool(...).promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:24:6)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+2023-02-07 09:50:18 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 09:50:53 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 09:54:29 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 09:56:02 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:36:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 09:58:04 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-07 09:58:19 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:35:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-07 09:58:41 error: uncaughtException: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+TypeError: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:17)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-07 09:59:44 error: uncaughtException: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+TypeError: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:17)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-07 10:00:09 error: uncaughtException: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+TypeError: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:17)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-07 10:00:45 error: uncaughtException: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+TypeError: Cannot destructure property 'password' of 'result.RowDataPacket' as it is undefined.
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:17)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-07 10:01:38 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:36:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-07 10:02:02 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:36:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-07 10:02:38 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:36:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-07 10:02:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m32[0m         console.log(result{0}.password)
+[7m  [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m32[0m         console.log(result{0}.password)
+[7m  [0m [91m                            ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m27[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m32[0m         console.log(result{0}.password)
+[7m  [0m [91m                          ~[0m
+[96msrc/services/auth.service.ts[0m:[93m32[0m:[93m29[0m - [91merror[0m[90m TS1005: [0m':' expected.
+
+[7m32[0m         console.log(result{0}.password)
+[7m  [0m [91m                            ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-02-07 10:03:14 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:36:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-07 10:03:44 error: uncaughtException: password is not defined
+ReferenceError: password is not defined
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:35:63)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-07 10:40:13 error: uncaughtException: promise_mysql_1.default.createPool(...).promise is not a function
+TypeError: promise_mysql_1.default.createPool(...).promise is not a function
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:24:6)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:1:1)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+2023-02-07 10:41:17 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:32:43
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-07 10:42:23 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:35:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 10:49:51 error: [POST] /login >> StatusCode:: 400, Message:: property data should not exist, email must be an email, password must be a string
+2023-02-07 10:51:14 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 10:54:17 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 10:55:22 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 10:57:19 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 10:58:08 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:36)
+2023-02-07 10:59:36 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:26)
+2023-02-07 11:01:08 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:26)
+2023-02-07 11:01:56 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:33:41)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:26)
+2023-02-07 11:35:06 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m31[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m       res.status(200).json(response.message ? { message: response.message, response.result } : { message: "logged in" });
+[7m  [0m [91m                                                                                   ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/auth.controller.ts[0m:[93m31[0m:[93m84[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m31[0m       res.status(200).json(response.message ? { message: response.message, response.result } : { message: "logged in" });
+[7m  [0m [91m                                                                                   ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-02-07 12:54:58 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drp table admin' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drp table admin' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:26:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 12:55:37 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drp table admin' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drp table admin' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:26:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 12:57:39 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:26:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 12:58:12 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:9)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 12:58:59 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:9)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 12:59:17 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:9)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 12:59:58 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:00:19 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:00:41 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:01:04 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:01:31 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'max), password varchar(max), role varchar(30))' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'max), password varchar(max), role varchar(30))' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:03:16 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'max), password varchar(max), role varchar(40))' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'max), password varchar(max), role varchar(40))' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:03:52 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:04:24 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:04:51 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:06:49 error: [GET] /users/cst_CBTwP58v2e >> StatusCode:: 500, Message:: The customer is no longer available
+2023-02-07 13:09:12 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250), password varchar(250), role varchar(40)) values ("morgan@gmail.com' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250), password varchar(250), role varchar(40)) values ("morgan@gmail.com' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:09:24 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250), password varchar(250), role varchar(40)) values ("morgan@gmail.com' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250), password varchar(250), role varchar(40)) values ("morgan@gmail.com' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:09:46 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:10:46 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:31:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:11:50 error: uncaughtException: Table 'admin' already exists
+Error: Table 'admin' already exists
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:11:51 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:31:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:12:34 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:31:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:12:34 error: uncaughtException: Table 'admin' already exists
+Error: Table 'admin' already exists
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:12:50 error: uncaughtException: Table 'admin' already exists
+Error: Table 'admin' already exists
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:30:11)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:47)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:280:10)
+2023-02-07 13:12:50 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:34:11)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:47)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:280:10)
+2023-02-07 13:14:24 error: uncaughtException: Table 'admin' already exists
+Error: Table 'admin' already exists
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:14:24 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:31:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:14:58 error: uncaughtException: Table 'admin' already exists
+Error: Table 'admin' already exists
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:31:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:14:58 error: uncaughtException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'varchar(250) primary key, password varchar(250), role varchar(40)) values ("morg' at line 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:35:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:15:49 error: uncaughtException: Unknown column 'morgan@gmail.com' in 'field list'
+Error: Unknown column 'morgan@gmail.com' in 'field list'
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:31:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:16:24 error: uncaughtException: Unknown column 'morgan@gmail.com' in 'field list'
+Error: Unknown column 'morgan@gmail.com' in 'field list'
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:16:46 error: uncaughtException: Unknown column 'morgan@gmail.com' in 'field list'
+Error: Unknown column 'morgan@gmail.com' in 'field list'
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 13:18:25 error: uncaughtException: Duplicate entry 'morgan@gmail.com' for key 'admin.PRIMARY'
+Error: Duplicate entry 'morgan@gmail.com' for key 'admin.PRIMARY'
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 14:02:00 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 14:02:22 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 14:02:35 error: uncaughtException: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+Error: Unable to create or change a table without a primary key, when the system variable 'sql_require_primary_key' is set. Add a primary key to the table or unset this variable to avoid this message. Note that tables without a primary key can cause performance problems in row-based replication, so please consult your DBA before changing this setting.
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 15:04:23 error: uncaughtException: Column count doesn't match value count at row 1
+Error: Column count doesn't match value count at row 1
+    at PromisePool.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql2\promise.js:351:22)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:27:7)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-07 18:40:01 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m69[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m69[0m     if (verify(access_token, secretKey)) {
+[7m  [0m [91m    ~~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m69[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m69[0m     if (verify(access_token, secretKey)) {
+[7m  [0m [91m    ~~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-02-07 18:40:07 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m67[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m67[0m     console.log(verify(access_token, secretKey);
+[7m  [0m [91m                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/auth.service.ts[0m:[93m67[0m:[93m48[0m - [91merror[0m[90m TS1005: [0m')' expected.
+
+[7m67[0m     console.log(verify(access_token, secretKey);
+[7m  [0m [91m                                               ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)

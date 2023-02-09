@@ -1,0 +1,80 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 30
+    },
+    "auditLog": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\.8179427d13eb930450457a22511b1fd5d623faed-audit.json",
+    "files": [
+        {
+            "date": 1674561307503,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-24.log",
+            "hash": "de85b635bf6b5541d6368082dbce818e049a1beda832453a0682b805636610aa"
+        },
+        {
+            "date": 1674635326519,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-25.log",
+            "hash": "8ba70a5a65e313508f04c91042ac35f92756be76c3c960da14be31c4e0531e29"
+        },
+        {
+            "date": 1674722288261,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-26.log",
+            "hash": "7393a999c14bea63263da293e86c3dba4d07eb19c01b3ca9e22b3895949c5902"
+        },
+        {
+            "date": 1674807873872,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-27.log",
+            "hash": "f0303704d00f0ca6749dd9da0f647f542c23f6afdb9755ede8aea415347d7d1d"
+        },
+        {
+            "date": 1674913086328,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-28.log",
+            "hash": "e0dd74062dad649eb191d3b9148c6d9c74a6d4c73263339a850440e0c5cf7cd2"
+        },
+        {
+            "date": 1675067629686,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-30.log",
+            "hash": "8aef9c2a7aa30b200df1a5528fa8fea56629f9371bc61c80588ad5e7e4cae66d"
+        },
+        {
+            "date": 1675152918321,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-01-31.log",
+            "hash": "7e86c31efeca15c12092741e5e2a5d4c5389522516cb575fe45362acc962d216"
+        },
+        {
+            "date": 1675242869379,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-01.log",
+            "hash": "fbd79108db731746f395279d45d465335c52995fa553cf4c2bb5ad23b7e06231"
+        },
+        {
+            "date": 1675326676145,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-02.log",
+            "hash": "946c833f59aa4369aa482333f1010899a4eadd51a60ba3e6e35b02518fd8277d"
+        },
+        {
+            "date": 1675413154843,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-03.log",
+            "hash": "277013e40940cef58b6b143e2a40bee6d1d314cf82131ab5351f297581162cca"
+        },
+        {
+            "date": 1675671730955,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-06.log",
+            "hash": "bd1585fd64ed359a3fbcf061940830d7d5994935487e42c53ed4c63cad84ca5b"
+        },
+        {
+            "date": 1675759041004,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-07.log",
+            "hash": "194be611ac0760b34478d22b05186ea05fa426e89cd9dda51da93aa327ffafa8"
+        },
+        {
+            "date": 1675845077812,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-08.log",
+            "hash": "126c3e92a8ebb300b25b26010a7aec61c7cf955e813ff8813ea35dd1cb42ca6b"
+        },
+        {
+            "date": 1675931515752,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-09.log",
+            "hash": "6cb8764f8a24273b0e47cd0531cc563b752a3ff3986a0dc375ef0c1884ab8cbb"
+        }
+    ],
+    "hashType": "sha256"
+}

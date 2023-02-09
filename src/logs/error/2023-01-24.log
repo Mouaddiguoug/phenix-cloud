@@ -1,0 +1,206 @@
+2023-01-24 13:19:37 error: [GET] /users >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 13:19:45 error: [GET] /users >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 13:25:14 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m22[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m22[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m22[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 13:25:48 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m23[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m23[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 13:26:30 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m23[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m23[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 13:28:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m23[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m23[0m:[93m54[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m23[0m     const mollieClient = createMollieClient({apiKey: })
+[7m  [0m [91m                                                     ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 13:46:11 error: [GET] /users/d=cst_L6kaSYk5Cm >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 13:46:53 error: [GET] /users/d=cst_L6kaSYk5Cm >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 13:47:01 error: [GET] /users/id=cst_L6kaSYk5Cm >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 13:47:39 error: [GET] /users/id=cst_L6kaSYk5Cm >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 13:48:30 error: [GET] /users/id=cst_L6kaSYk5Cm >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-24 16:28:03 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 16:30:21 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 16:31:09 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m24[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m24[0m     } catch (error) {
+[7m  [0m [91m    ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 16:31:52 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 16:32:47 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m26[0m:[93m87[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m26[0m     const mandateData: mandate = mollieClient.customerMandates.iterate({ customerId:  });
+[7m  [0m [91m                                                                                      ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-24 16:38:45 error: [GET] /users/mandate/ >> StatusCode:: 500, Message:: The customer id is invalid

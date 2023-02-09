@@ -1,0 +1,5 @@
+2023-02-02 12:02:46 error: [GET] /users/cst_96KFYDJDvR >> StatusCode:: 500, Message:: The customer is no longer available
+2023-02-02 16:39:34 error: [GET] /users/cst_gU63RbSfFM >> StatusCode:: 500, Message:: No customer exists with token cst_gU63RbSfFM.
+2023-02-02 16:40:01 error: [GET] /users/cst_3zPjiMvLYW >> StatusCode:: 500, Message:: No customer exists with token cst_3zPjiMvLYW.
+2023-02-02 16:40:30 error: [GET] /users/cst_3zPjiMvLYW >> StatusCode:: 500, Message:: No customer exists with token cst_3zPjiMvLYW.
+2023-02-02 16:42:13 error: [GET] /users/cst_3zPjiMvLYW >> StatusCode:: 500, Message:: No customer exists with token cst_3zPjiMvLYW.

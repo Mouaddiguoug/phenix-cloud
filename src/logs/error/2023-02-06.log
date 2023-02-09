@@ -1,0 +1,587 @@
+2023-02-06 17:52:46 error: uncaughtException: connect ETIMEDOUT
+Error: connect ETIMEDOUT
+    at Connection._handleConnectTimeout (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:409:13)
+    at Object.onceWrapper (node:events:627:28)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    at Socket._onTimeout (node:net:562:8)
+    at listOnTimeout (node:internal/timers:564:17)
+    at processTimers (node:internal/timers:507:7)
+    --------------------
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Protocol.handshake (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:51:23)
+    at Connection.connect (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:116:18)
+    at App.connectToDb (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:49:9)
+    at new App (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:30:10)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+2023-02-06 18:05:54 error: uncaughtException: Cannot enqueue Query after fatal error.
+Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:212:16)
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:138:13)
+    at Connection.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:198:25)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:54:11)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.ErrorPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Handshake.js:125:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+2023-02-06 18:10:00 error: uncaughtException: ER_NO_DB_ERROR: No database selected
+Error: ER_NO_DB_ERROR: No database selected
+    at Query.Sequence._packetToError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:198:25)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:54:11)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+2023-02-06 18:33:45 error: uncaughtException: Cannot read properties of undefined (reading 'local')
+TypeError: Cannot read properties of undefined (reading 'local')
+    at App.connectToDb (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:45:38)
+    at new App (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\app.ts:30:10)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:9:13)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+2023-02-06 18:59:24 error: [POST] /login >> StatusCode:: 400, Message:: property name should not exist, property facturationAddress1 should not exist, property facturationAddress2 should not exist, property city should not exist, property country should not exist, property postalCode should not exist, password must be a string
+2023-02-06 19:00:16 error: [POST] /login >> StatusCode:: 500, Message:: Cannot destructure property 'cookie' of '(intermediate value)' as it is undefined.
+2023-02-06 19:00:16 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:51:32)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:00:16 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:48:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:00:41 error: [POST] /login >> StatusCode:: 500, Message:: Cannot destructure property 'cookie' of '(intermediate value)' as it is undefined.
+2023-02-06 19:00:42 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:51:32)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:00:42 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:48:43)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:01:41 error: [POST] /login >> StatusCode:: 500, Message:: Cannot destructure property 'cookie' of '(intermediate value)' as it is undefined.
+2023-02-06 19:01:41 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:34)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:01:41 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:45)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:02:37 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:34)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:02:37 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:45)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:04:21 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:53:32)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+2023-02-06 19:04:21 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:50:43)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+2023-02-06 19:08:02 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:43)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:59)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\middlewares\validation.middleware.ts:19:9
+2023-02-06 19:08:02 error: uncaughtException: ER_NO_DB_ERROR: No database selected
+Error: ER_NO_DB_ERROR: No database selected
+    at Query.Sequence._packetToError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:198:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:48:26)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:59)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\middlewares\validation.middleware.ts:19:9
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-06 19:10:02 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:53:34)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+2023-02-06 19:10:02 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:50:45)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+2023-02-06 19:10:27 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:54:34)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+2023-02-06 19:10:27 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:51:45)
+    at Handshake.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Handshake._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Handshake.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Handshake.Sequence.OkPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:92:8)
+2023-02-06 19:11:10 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:53:36)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:11:10 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:50:47)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:11:56 error: uncaughtException: This email morgan@gmail.com was not found
+Error: This email morgan@gmail.com was not found
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:44)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:14:08 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:36)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:14:08 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:47)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:14:48 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:36)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:14:48 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:47)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:15:07 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:36)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:15:07 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:47)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:16:16 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:36)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:16:16 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:47)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:17:00 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:52:36)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:17:00 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:49:47)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:19:18 error: uncaughtException: Identifier 'result' has already been declared
+C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:36
+            const result = con.connect(function (err) {
+                  ^
+
+SyntaxError: Identifier 'result' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-06 19:20:30 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:53:34)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:20:30 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:50:45)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:21:36 error: uncaughtException: this.createToken is not a function
+TypeError: this.createToken is not a function
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:53:34)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+    at Query.EofPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:133:8)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+2023-02-06 19:21:36 error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\promises.js:20:12)
+    at compare (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\bcrypt\bcrypt.js:204:25)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:50:45)
+    at Query.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Query._callback (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:488:16)
+    at Query.Sequence.end (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:149:8)
+2023-02-06 19:22:52 error: uncaughtException: ER_NO_DB_ERROR: No database selected
+Error: ER_NO_DB_ERROR: No database selected
+    at Query.Sequence._packetToError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:198:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:48:11)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:59)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\middlewares\validation.middleware.ts:19:9
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-06 19:23:15 error: uncaughtException: ER_NO_DB_ERROR: No database selected
+Error: ER_NO_DB_ERROR: No database selected
+    at Query.Sequence._packetToError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:198:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:48:11)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:59)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\middlewares\validation.middleware.ts:19:9
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-06 19:23:58 error: uncaughtException: ER_NO_DB_ERROR: No database selected
+Error: ER_NO_DB_ERROR: No database selected
+    at Query.Sequence._packetToError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (node:events:513:28)
+    at Socket.emit (node:domain:489:12)
+    --------------------
+    at Protocol._enqueue (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\protocol\Protocol.js:144:48)
+    at Connection.query (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\mysql\lib\Connection.js:198:25)
+    at AuthService.login (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:48:11)
+    at AuthController.logIn (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\controllers\auth.controller.ts:24:59)
+    at Layer.handle [as handle_request] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:144:13)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\middlewares\validation.middleware.ts:19:9
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+2023-02-06 19:24:57 error: uncaughtException: Identifier 'result' has already been declared
+C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:47
+            const result = con.query('SELECT * FROM admin', function (err, result, fields) {
+                  ^
+
+SyntaxError: Identifier 'result' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+2023-02-06 19:25:09 error: uncaughtException: Identifier 'result' has already been declared
+C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\auth.service.ts:47
+            const result = con.query('SELECT * FROM admin', function (err, result, fields) {
+                  ^
+
+SyntaxError: Identifier 'result' has already been declared
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)

@@ -1,0 +1,3 @@
+2023-01-31 11:47:03 error: [POST] /users >> StatusCode:: 500, Message:: The 'name' field should not contain only whitespace characters
+2023-01-31 11:47:43 error: [POST] /users >> StatusCode:: 500, Message:: The 'name' field should not contain only whitespace characters
+2023-01-31 12:07:29 error: [POST] /users >> StatusCode:: 500, Message:: The 'name' field should not contain only whitespace characters

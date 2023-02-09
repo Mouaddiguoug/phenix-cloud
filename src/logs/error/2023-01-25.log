@@ -1,0 +1,130 @@
+2023-01-25 09:43:58 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:19:17)
+    at new UsersRoute (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:9:40)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+2023-01-25 09:47:27 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:19:17)
+    at new UsersRoute (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:9:40)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+2023-01-25 09:47:58 error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as get] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:19:17)
+    at new UsersRoute (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:9:40)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+2023-01-25 10:51:00 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 10:56:13 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 10:57:33 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 10:59:40 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:00:59 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:05:28 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:06:05 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:06:34 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:06:56 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:07:01 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:07:59 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:08:18 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:11:21 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:12:36 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:12:46 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:13:02 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:13:23 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:13:26 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:15:27 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:15:47 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:16:25 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:18:04 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:18:26 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:19:18 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:19:41 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:21:34 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:21:41 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:22:35 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:23:49 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:24:03 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:24:33 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:28:52 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:29:25 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:00 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:11 error: [GET] /users/subscription >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:13 error: [GET] /users/subscriptionnn >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:14 error: [GET] /users/subscriptionnn >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:19 error: [GET] /users/subscription >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:22 error: [GET] /users/subscriptions >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:30:32 error: [GET] /users/subscription >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:31:11 error: [GET] /users/getSubscription >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:31:18 error: [GET] /users/gfbgfbgf >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:31:20 error: [GET] /users/gfbgfbgf >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:31:32 error: [GET] /users/rtfhg >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:32:04 error: [GET] /users/subs >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:33:27 error: [GET] /users/subs >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:34:10 error: [GET] /users/subs/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:34:28 error: [GET] /users/subs >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:35:20 error: [GET] /users/subs/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:35:53 error: [GET] /users/subs/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:36:07 error: [GET] /users/subs/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:36:44 error: [GET] /users/subs/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:36:47 error: [GET] /users/subs >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:37:42 error: [GET] /users/subs >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 11:43:39 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m     })
+[7m  [0m [91m    ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m21[0m:[93m5[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m21[0m     })
+[7m  [0m [91m    ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-25 12:00:06 error: [GET] /users/ >> StatusCode:: 500, Message:: listSubscriptions is not defined
+2023-01-25 13:37:50 error: [GET] /users/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-25 13:41:10 error: uncaughtException: await is only valid in async functions and the top level bodies of modules
+C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\services\users.service.ts:17
+            const mandate = await mollieClient.customerMandates.page(customer.id);
+                            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:360:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1088:15)
+    at Module._compile (node:internal/modules/cjs/loader:1123:27)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+    at require (node:internal/modules/cjs/helpers:103:18)

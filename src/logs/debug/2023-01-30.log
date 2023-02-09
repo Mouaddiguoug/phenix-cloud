@@ -1,0 +1,1345 @@
+2023-01-30 09:33:50 info: =================================
+2023-01-30 09:33:50 info: ======= ENV: development =======
+2023-01-30 09:33:50 info: 🚀 App listening on the port 3000
+2023-01-30 09:33:50 info: =================================
+2023-01-30 09:36:18 info: [0mOPTIONS /users [32m204[0m 1.623 ms - 0[0m
+2023-01-30 09:36:18 info: [0mGET /users [36m304[0m 515.614 ms - -[0m
+2023-01-30 09:36:21 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.182 ms - 0[0m
+2023-01-30 09:36:22 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 223.568 ms - -[0m
+2023-01-30 09:36:22 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.153 ms - 0[0m
+2023-01-30 09:36:22 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.099 ms - 0[0m
+2023-01-30 09:36:22 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.097 ms - 0[0m
+2023-01-30 09:36:22 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 248.099 ms - -[0m
+2023-01-30 09:36:22 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 245.575 ms - -[0m
+2023-01-30 09:36:22 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 228.810 ms - -[0m
+2023-01-30 09:36:51 info: [0mOPTIONS /users [32m204[0m 0.103 ms - 0[0m
+2023-01-30 09:36:52 info: [0mGET /users [36m304[0m 429.127 ms - -[0m
+2023-01-30 09:36:54 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.118 ms - 0[0m
+2023-01-30 09:36:54 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 239.392 ms - -[0m
+2023-01-30 09:36:54 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.170 ms - 0[0m
+2023-01-30 09:36:54 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.131 ms - 0[0m
+2023-01-30 09:36:54 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.144 ms - 0[0m
+2023-01-30 09:36:54 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 213.304 ms - -[0m
+2023-01-30 09:36:54 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 280.299 ms - -[0m
+2023-01-30 09:36:54 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 215.513 ms - -[0m
+2023-01-30 10:31:02 info: [0mOPTIONS /users [32m204[0m 0.618 ms - 0[0m
+2023-01-30 10:31:02 info: [0mGET /users [36m304[0m 782.522 ms - -[0m
+2023-01-30 10:31:04 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.123 ms - 0[0m
+2023-01-30 10:31:04 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 206.406 ms - -[0m
+2023-01-30 10:31:04 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.155 ms - 0[0m
+2023-01-30 10:31:04 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 210.864 ms - -[0m
+2023-01-30 11:01:02 info: [0mOPTIONS /users [32m204[0m 0.116 ms - 0[0m
+2023-01-30 11:01:03 info: [0mGET /users [36m304[0m 542.429 ms - -[0m
+2023-01-30 11:01:41 info: [0mOPTIONS /users [32m204[0m 0.105 ms - 0[0m
+2023-01-30 11:01:42 info: [0mGET /users [36m304[0m 470.299 ms - -[0m
+2023-01-30 12:10:47 info: =================================
+2023-01-30 12:10:47 info: ======= ENV: development =======
+2023-01-30 12:10:47 info: 🚀 App listening on the port 3000
+2023-01-30 12:10:47 info: =================================
+2023-01-30 12:19:09 info: =================================
+2023-01-30 12:19:09 info: ======= ENV: development =======
+2023-01-30 12:19:09 info: 🚀 App listening on the port 3000
+2023-01-30 12:19:09 info: =================================
+2023-01-30 12:29:57 info: [0mOPTIONS /users [32m204[0m 1.002 ms - 0[0m
+2023-01-30 12:29:57 error: [POST] /users >> StatusCode:: 400, Message:: property headers should not exist, property data should not exist, email must be an email, password must be a string
+2023-01-30 12:29:57 info: [0mPOST /users [33m400[0m 22.652 ms - 130[0m
+2023-01-30 12:31:12 info: [0mOPTIONS /users [32m204[0m 0.165 ms - 0[0m
+2023-01-30 12:31:12 error: [POST] /users >> StatusCode:: 400, Message:: property headers should not exist, property data should not exist, email must be an email, password must be a string
+2023-01-30 12:31:12 info: [0mPOST /users [33m400[0m 3.271 ms - 130[0m
+2023-01-30 12:39:48 info: [0mOPTIONS /users [32m204[0m 0.107 ms - 0[0m
+2023-01-30 12:39:48 error: [POST] /users >> StatusCode:: 400, Message:: property headers should not exist, property data should not exist, email must be an email, password must be a string
+2023-01-30 12:39:48 info: [0mPOST /users [33m400[0m 1.539 ms - 130[0m
+2023-01-30 12:43:10 info: =================================
+2023-01-30 12:43:10 info: ======= ENV: development =======
+2023-01-30 12:43:10 info: 🚀 App listening on the port 3000
+2023-01-30 12:43:10 info: =================================
+2023-01-30 12:43:15 info: [0mOPTIONS /users [32m204[0m 1.100 ms - 0[0m
+2023-01-30 12:43:15 info: [0mPOST /users [32m201[0m 70.255 ms - 21[0m
+2023-01-30 12:46:15 info: =================================
+2023-01-30 12:46:15 info: ======= ENV: development =======
+2023-01-30 12:46:15 info: 🚀 App listening on the port 3000
+2023-01-30 12:46:15 info: =================================
+2023-01-30 12:46:17 info: [0mOPTIONS /users [32m204[0m 1.130 ms - 0[0m
+2023-01-30 12:46:18 info: [0mPOST /users [32m201[0m 62.282 ms - 21[0m
+2023-01-30 12:46:51 info: =================================
+2023-01-30 12:46:51 info: ======= ENV: development =======
+2023-01-30 12:46:51 info: 🚀 App listening on the port 3000
+2023-01-30 12:46:51 info: =================================
+2023-01-30 12:46:57 info: [0mOPTIONS /users [32m204[0m 1.170 ms - 0[0m
+2023-01-30 12:46:57 info: [0mPOST /users [32m201[0m 64.505 ms - 21[0m
+2023-01-30 12:47:29 info: =================================
+2023-01-30 12:47:29 info: ======= ENV: development =======
+2023-01-30 12:47:29 info: 🚀 App listening on the port 3000
+2023-01-30 12:47:29 info: =================================
+2023-01-30 12:47:45 info: =================================
+2023-01-30 12:47:45 info: ======= ENV: development =======
+2023-01-30 12:47:45 info: 🚀 App listening on the port 3000
+2023-01-30 12:47:45 info: =================================
+2023-01-30 12:47:56 info: =================================
+2023-01-30 12:47:56 info: ======= ENV: development =======
+2023-01-30 12:47:56 info: 🚀 App listening on the port 3000
+2023-01-30 12:47:56 info: =================================
+2023-01-30 12:47:57 info: [0mOPTIONS /users [32m204[0m 1.107 ms - 0[0m
+2023-01-30 12:47:57 info: [0mPOST /users [32m201[0m 63.347 ms - 21[0m
+2023-01-30 12:48:11 info: =================================
+2023-01-30 12:48:11 info: ======= ENV: development =======
+2023-01-30 12:48:11 info: 🚀 App listening on the port 3000
+2023-01-30 12:48:11 info: =================================
+2023-01-30 12:48:14 info: [0mOPTIONS /users [32m204[0m 1.172 ms - 0[0m
+2023-01-30 12:48:14 info: [0mPOST /users [32m201[0m 67.086 ms - 21[0m
+2023-01-30 12:48:21 info: =================================
+2023-01-30 12:48:21 info: ======= ENV: development =======
+2023-01-30 12:48:21 info: 🚀 App listening on the port 3000
+2023-01-30 12:48:21 info: =================================
+2023-01-30 12:48:23 info: [0mOPTIONS /users [32m204[0m 1.098 ms - 0[0m
+2023-01-30 12:48:23 info: [0mPOST /users [32m201[0m 64.386 ms - 21[0m
+2023-01-30 12:50:02 info: =================================
+2023-01-30 12:50:02 info: ======= ENV: development =======
+2023-01-30 12:50:02 info: 🚀 App listening on the port 3000
+2023-01-30 12:50:02 info: =================================
+2023-01-30 12:50:06 info: [0mOPTIONS /users [32m204[0m 1.119 ms - 0[0m
+2023-01-30 12:50:06 info: [0mPOST /users [32m201[0m 397.543 ms - 21[0m
+2023-01-30 12:51:58 info: =================================
+2023-01-30 12:51:58 info: ======= ENV: development =======
+2023-01-30 12:51:58 info: 🚀 App listening on the port 3000
+2023-01-30 12:51:58 info: =================================
+2023-01-30 12:51:59 info: [0mOPTIONS /users [32m204[0m 1.098 ms - 0[0m
+2023-01-30 12:51:59 info: [0mPOST /users [32m201[0m 23.389 ms - 21[0m
+2023-01-30 12:52:37 info: =================================
+2023-01-30 12:52:37 info: ======= ENV: development =======
+2023-01-30 12:52:37 info: 🚀 App listening on the port 3000
+2023-01-30 12:52:37 info: =================================
+2023-01-30 12:52:38 info: [0mOPTIONS /users [32m204[0m 1.278 ms - 0[0m
+2023-01-30 12:52:38 info: [0mPOST /users [32m201[0m 60.984 ms - 21[0m
+2023-01-30 12:52:50 info: =================================
+2023-01-30 12:52:50 info: ======= ENV: development =======
+2023-01-30 12:52:50 info: 🚀 App listening on the port 3000
+2023-01-30 12:52:50 info: =================================
+2023-01-30 12:52:50 info: [0mOPTIONS /users [32m204[0m 1.108 ms - 0[0m
+2023-01-30 12:52:50 info: [0mPOST /users [32m201[0m 17.297 ms - 21[0m
+2023-01-30 12:52:53 info: [0mPOST /users [32m201[0m 2.608 ms - 21[0m
+2023-01-30 12:53:07 info: =================================
+2023-01-30 12:53:07 info: ======= ENV: development =======
+2023-01-30 12:53:07 info: 🚀 App listening on the port 3000
+2023-01-30 12:53:07 info: =================================
+2023-01-30 12:53:09 info: [0mOPTIONS /users [32m204[0m 1.115 ms - 0[0m
+2023-01-30 12:53:09 info: [0mPOST /users [32m201[0m 16.265 ms - 21[0m
+2023-01-30 12:53:32 info: =================================
+2023-01-30 12:53:32 info: ======= ENV: development =======
+2023-01-30 12:53:32 info: 🚀 App listening on the port 3000
+2023-01-30 12:53:32 info: =================================
+2023-01-30 12:53:33 info: [0mOPTIONS /users [32m204[0m 1.096 ms - 0[0m
+2023-01-30 12:53:33 info: [0mPOST /users [32m201[0m 17.877 ms - 21[0m
+2023-01-30 12:53:48 info: =================================
+2023-01-30 12:53:48 info: ======= ENV: development =======
+2023-01-30 12:53:48 info: 🚀 App listening on the port 3000
+2023-01-30 12:53:48 info: =================================
+2023-01-30 12:53:52 info: [0mOPTIONS /users [32m204[0m 1.090 ms - 0[0m
+2023-01-30 12:53:52 info: [0mPOST /users [32m201[0m 17.846 ms - 21[0m
+2023-01-30 12:54:55 info: [0mOPTIONS /users [32m204[0m 0.281 ms - 0[0m
+2023-01-30 12:54:55 info: [0mPOST /users [32m201[0m 3.175 ms - 21[0m
+2023-01-30 12:56:11 info: =================================
+2023-01-30 12:56:11 info: ======= ENV: development =======
+2023-01-30 12:56:11 info: 🚀 App listening on the port 3000
+2023-01-30 12:56:11 info: =================================
+2023-01-30 12:56:36 info: =================================
+2023-01-30 12:56:36 info: ======= ENV: development =======
+2023-01-30 12:56:36 info: 🚀 App listening on the port 3000
+2023-01-30 12:56:36 info: =================================
+2023-01-30 12:56:43 info: [0mOPTIONS /users [32m204[0m 1.118 ms - 0[0m
+2023-01-30 12:56:43 info: [0mPOST /users [32m201[0m 63.073 ms - 21[0m
+2023-01-30 12:58:04 info: =================================
+2023-01-30 12:58:04 info: ======= ENV: development =======
+2023-01-30 12:58:04 info: 🚀 App listening on the port 3000
+2023-01-30 12:58:04 info: =================================
+2023-01-30 12:58:08 info: [0mOPTIONS /users [32m204[0m 1.144 ms - 0[0m
+2023-01-30 12:58:08 info: [0mPOST /users [32m201[0m 63.249 ms - 21[0m
+2023-01-30 12:58:55 info: =================================
+2023-01-30 12:58:55 info: ======= ENV: development =======
+2023-01-30 12:58:55 info: 🚀 App listening on the port 3000
+2023-01-30 12:58:55 info: =================================
+2023-01-30 12:59:04 info: [0mOPTIONS /users [32m204[0m 1.148 ms - 0[0m
+2023-01-30 12:59:04 info: [0mPOST /users [32m201[0m 64.124 ms - 21[0m
+2023-01-30 13:03:21 info: =================================
+2023-01-30 13:03:21 info: ======= ENV: development =======
+2023-01-30 13:03:21 info: 🚀 App listening on the port 3000
+2023-01-30 13:03:21 info: =================================
+2023-01-30 13:03:23 info: [0mOPTIONS /users [32m204[0m 1.605 ms - 0[0m
+2023-01-30 13:03:24 info: [0mGET /users [32m200[0m 486.623 ms - -[0m
+2023-01-30 13:04:37 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.126 ms - 0[0m
+2023-01-30 13:04:38 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 208.937 ms - -[0m
+2023-01-30 13:04:38 info: [0mOPTIONS /users/payments/cst_oPjNFW3Vwq [32m204[0m 0.098 ms - 0[0m
+2023-01-30 13:04:38 info: [0mOPTIONS /users/subscriptions/cst_oPjNFW3Vwq [32m204[0m 0.128 ms - 0[0m
+2023-01-30 13:04:38 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.091 ms - 0[0m
+2023-01-30 13:04:38 info: [0mGET /users/subscriptions/cst_oPjNFW3Vwq [36m304[0m 236.185 ms - -[0m
+2023-01-30 13:04:38 info: [0mGET /users/payments/cst_oPjNFW3Vwq [36m304[0m 218.728 ms - -[0m
+2023-01-30 13:04:38 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 206.877 ms - -[0m
+2023-01-30 13:04:59 info: [0mOPTIONS /users/cst_Uidd2NjBet [32m204[0m 0.100 ms - 0[0m
+2023-01-30 13:04:59 info: [0mGET /users/cst_Uidd2NjBet [36m304[0m 207.302 ms - -[0m
+2023-01-30 13:04:59 info: [0mOPTIONS /users/payments/cst_Uidd2NjBet [32m204[0m 0.114 ms - 0[0m
+2023-01-30 13:04:59 info: [0mOPTIONS /users/subscriptions/cst_Uidd2NjBet [32m204[0m 0.860 ms - 0[0m
+2023-01-30 13:04:59 info: [0mOPTIONS /users/mandates/cst_Uidd2NjBet [32m204[0m 0.140 ms - 0[0m
+2023-01-30 13:05:00 info: [0mGET /users/subscriptions/cst_Uidd2NjBet [36m304[0m 191.200 ms - -[0m
+2023-01-30 13:05:00 info: [0mGET /users/payments/cst_Uidd2NjBet [36m304[0m 232.605 ms - -[0m
+2023-01-30 13:05:00 info: [0mGET /users/mandates/cst_Uidd2NjBet [36m304[0m 206.572 ms - -[0m
+2023-01-30 13:05:07 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.113 ms - 0[0m
+2023-01-30 13:05:07 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 214.107 ms - -[0m
+2023-01-30 13:05:07 info: [0mOPTIONS /users/payments/cst_oPjNFW3Vwq [32m204[0m 0.145 ms - 0[0m
+2023-01-30 13:05:07 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.154 ms - 0[0m
+2023-01-30 13:05:07 info: [0mOPTIONS /users/subscriptions/cst_oPjNFW3Vwq [32m204[0m 0.085 ms - 0[0m
+2023-01-30 13:05:08 info: [0mGET /users/payments/cst_oPjNFW3Vwq [36m304[0m 205.062 ms - -[0m
+2023-01-30 13:05:08 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 261.683 ms - -[0m
+2023-01-30 13:05:08 info: [0mGET /users/subscriptions/cst_oPjNFW3Vwq [36m304[0m 252.408 ms - -[0m
+2023-01-30 13:05:14 info: [0mOPTIONS /users [32m204[0m 0.185 ms - 0[0m
+2023-01-30 13:05:15 info: [0mGET /users [36m304[0m 428.240 ms - -[0m
+2023-01-30 13:05:16 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.175 ms - 0[0m
+2023-01-30 13:05:16 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 218.794 ms - -[0m
+2023-01-30 13:05:16 info: [0mOPTIONS /users/payments/cst_oPjNFW3Vwq [32m204[0m 0.119 ms - 0[0m
+2023-01-30 13:05:16 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.069 ms - 0[0m
+2023-01-30 13:05:16 info: [0mOPTIONS /users/subscriptions/cst_oPjNFW3Vwq [32m204[0m 0.085 ms - 0[0m
+2023-01-30 13:05:16 info: [0mGET /users/payments/cst_oPjNFW3Vwq [36m304[0m 232.733 ms - -[0m
+2023-01-30 13:05:16 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 221.001 ms - -[0m
+2023-01-30 13:05:16 info: [0mGET /users/subscriptions/cst_oPjNFW3Vwq [36m304[0m 201.543 ms - -[0m
+2023-01-30 13:05:50 info: [0mOPTIONS /users [32m204[0m 0.089 ms - 0[0m
+2023-01-30 13:05:50 info: [0mGET /users [36m304[0m 450.935 ms - -[0m
+2023-01-30 13:06:08 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 13:06:09 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 230.584 ms - -[0m
+2023-01-30 13:06:09 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.072 ms - 0[0m
+2023-01-30 13:06:09 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.075 ms - 0[0m
+2023-01-30 13:06:09 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.077 ms - 0[0m
+2023-01-30 13:06:09 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 313.644 ms - -[0m
+2023-01-30 13:06:09 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 294.491 ms - -[0m
+2023-01-30 13:06:09 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 333.582 ms - -[0m
+2023-01-30 13:06:36 info: [0mOPTIONS /users [32m204[0m 0.087 ms - 0[0m
+2023-01-30 13:06:36 info: [0mPOST /users [32m201[0m 40.640 ms - 21[0m
+2023-01-30 13:08:22 info: =================================
+2023-01-30 13:08:22 info: ======= ENV: development =======
+2023-01-30 13:08:22 info: 🚀 App listening on the port 3000
+2023-01-30 13:08:22 info: =================================
+2023-01-30 13:08:28 info: [0mOPTIONS /users [32m204[0m 1.139 ms - 0[0m
+2023-01-30 13:08:29 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:08:29 info: [0mPOST /users [31m500[0m 231.977 ms - 63[0m
+2023-01-30 13:08:41 info: =================================
+2023-01-30 13:08:41 info: ======= ENV: development =======
+2023-01-30 13:08:41 info: 🚀 App listening on the port 3000
+2023-01-30 13:08:41 info: =================================
+2023-01-30 13:08:45 info: [0mOPTIONS /users [32m204[0m 1.092 ms - 0[0m
+2023-01-30 13:08:45 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:08:45 info: [0mPOST /users [31m500[0m 281.353 ms - 63[0m
+2023-01-30 13:09:44 info: =================================
+2023-01-30 13:09:44 info: ======= ENV: development =======
+2023-01-30 13:09:44 info: 🚀 App listening on the port 3000
+2023-01-30 13:09:44 info: =================================
+2023-01-30 13:09:45 info: [0mOPTIONS /users [32m204[0m 1.081 ms - 0[0m
+2023-01-30 13:09:45 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:09:45 info: [0mPOST /users [31m500[0m 239.110 ms - 63[0m
+2023-01-30 13:10:24 info: [0mOPTIONS /users [32m204[0m 0.122 ms - 0[0m
+2023-01-30 13:10:24 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:10:24 info: [0mPOST /users [31m500[0m 198.977 ms - 63[0m
+2023-01-30 13:11:19 info: =================================
+2023-01-30 13:11:19 info: ======= ENV: development =======
+2023-01-30 13:11:19 info: 🚀 App listening on the port 3000
+2023-01-30 13:11:19 info: =================================
+2023-01-30 13:11:21 info: [0mOPTIONS /users [32m204[0m 1.124 ms - 0[0m
+2023-01-30 13:11:21 error: [POST] /users >> StatusCode:: 400, Message:: property headers should not exist, property data should not exist, email must be an email, password must be a string
+2023-01-30 13:11:21 info: [0mPOST /users [33m400[0m 16.797 ms - 130[0m
+2023-01-30 13:12:34 info: =================================
+2023-01-30 13:12:34 info: ======= ENV: development =======
+2023-01-30 13:12:34 info: 🚀 App listening on the port 3000
+2023-01-30 13:12:34 info: =================================
+2023-01-30 13:12:38 info: [0mOPTIONS /users [32m204[0m 1.089 ms - 0[0m
+2023-01-30 13:12:38 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:12:38 info: [0mPOST /users [31m500[0m 243.817 ms - 63[0m
+2023-01-30 13:14:10 info: =================================
+2023-01-30 13:14:10 info: ======= ENV: development =======
+2023-01-30 13:14:10 info: 🚀 App listening on the port 3000
+2023-01-30 13:14:10 info: =================================
+2023-01-30 13:14:11 info: [0mOPTIONS /users [32m204[0m 1.224 ms - 0[0m
+2023-01-30 13:14:12 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:14:12 info: [0mPOST /users [31m500[0m 253.026 ms - 63[0m
+2023-01-30 13:15:49 info: =================================
+2023-01-30 13:15:49 info: ======= ENV: development =======
+2023-01-30 13:15:49 info: 🚀 App listening on the port 3000
+2023-01-30 13:15:49 info: =================================
+2023-01-30 13:15:55 info: [0mOPTIONS /users [32m204[0m 1.100 ms - 0[0m
+2023-01-30 13:15:55 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:15:55 info: [0mPOST /users [31m500[0m 220.927 ms - 63[0m
+2023-01-30 13:16:40 info: =================================
+2023-01-30 13:16:40 info: ======= ENV: development =======
+2023-01-30 13:16:40 info: 🚀 App listening on the port 3000
+2023-01-30 13:16:40 info: =================================
+2023-01-30 13:16:44 info: [0mOPTIONS /users [32m204[0m 1.119 ms - 0[0m
+2023-01-30 13:16:44 info: [0mPOST /users [32m201[0m 15.554 ms - -[0m
+2023-01-30 13:17:08 info: =================================
+2023-01-30 13:17:08 info: ======= ENV: development =======
+2023-01-30 13:17:08 info: 🚀 App listening on the port 3000
+2023-01-30 13:17:08 info: =================================
+2023-01-30 13:17:09 info: [0mOPTIONS /users [32m204[0m 1.168 ms - 0[0m
+2023-01-30 13:17:09 info: [0mPOST /users [32m201[0m 62.936 ms - -[0m
+2023-01-30 13:17:26 info: =================================
+2023-01-30 13:17:26 info: ======= ENV: development =======
+2023-01-30 13:17:26 info: 🚀 App listening on the port 3000
+2023-01-30 13:17:26 info: =================================
+2023-01-30 13:17:33 info: =================================
+2023-01-30 13:17:33 info: ======= ENV: development =======
+2023-01-30 13:17:33 info: 🚀 App listening on the port 3000
+2023-01-30 13:17:33 info: =================================
+2023-01-30 13:17:36 info: [0mOPTIONS /users [32m204[0m 1.103 ms - 0[0m
+2023-01-30 13:17:36 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:17:36 info: [0mPOST /users [31m500[0m 234.292 ms - 63[0m
+2023-01-30 13:20:26 error: [POST] /users >> StatusCode:: 400, Message:: Unexpected token } in JSON at position 232
+2023-01-30 13:20:26 info: [0mPOST /users [33m400[0m 6.071 ms - 56[0m
+2023-01-30 13:20:34 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:20:34 info: [0mPOST /users [31m500[0m 197.729 ms - 63[0m
+2023-01-30 13:22:22 info: =================================
+2023-01-30 13:22:22 info: ======= ENV: development =======
+2023-01-30 13:22:22 info: 🚀 App listening on the port 3000
+2023-01-30 13:22:22 info: =================================
+2023-01-30 13:22:25 info: [0mOPTIONS /users [32m204[0m 1.127 ms - 0[0m
+2023-01-30 13:22:26 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:22:26 info: [0mPOST /users [31m500[0m 238.268 ms - 63[0m
+2023-01-30 13:25:28 info: [0mOPTIONS /users [32m204[0m 0.132 ms - 0[0m
+2023-01-30 13:25:28 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:25:28 info: [0mPOST /users [31m500[0m 223.502 ms - 63[0m
+2023-01-30 13:27:03 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:27:03 info: [0mPOST /users [31m500[0m 191.514 ms - 63[0m
+2023-01-30 13:28:19 info: [0mOPTIONS /users [32m204[0m 0.099 ms - 0[0m
+2023-01-30 13:28:19 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:28:19 info: [0mPOST /users [31m500[0m 210.020 ms - 63[0m
+2023-01-30 13:32:05 info: =================================
+2023-01-30 13:32:05 info: ======= ENV: development =======
+2023-01-30 13:32:05 info: 🚀 App listening on the port 3000
+2023-01-30 13:32:05 info: =================================
+2023-01-30 13:32:17 info: [0mOPTIONS /users [32m204[0m 1.269 ms - 0[0m
+2023-01-30 13:32:18 info: [0mPOST /users [32m201[0m 264.134 ms - 21[0m
+2023-01-30 13:35:37 info: =================================
+2023-01-30 13:35:37 info: ======= ENV: development =======
+2023-01-30 13:35:37 info: 🚀 App listening on the port 3000
+2023-01-30 13:35:37 info: =================================
+2023-01-30 13:39:18 info: [0mOPTIONS /users [32m204[0m 1.223 ms - 0[0m
+2023-01-30 13:39:18 info: [0mGET /users [32m200[0m 524.960 ms - -[0m
+2023-01-30 13:39:41 info: [0mOPTIONS /users [32m204[0m 0.263 ms - 0[0m
+2023-01-30 13:39:41 info: [0mGET /users [36m304[0m 426.097 ms - -[0m
+2023-01-30 13:40:36 info: [0mOPTIONS /users [32m204[0m 0.253 ms - 0[0m
+2023-01-30 13:40:36 info: [0mGET /users [36m304[0m 444.200 ms - -[0m
+2023-01-30 13:54:27 info: [0mOPTIONS /users [32m204[0m 0.190 ms - 0[0m
+2023-01-30 13:54:27 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:54:27 info: [0mPOST /users [31m500[0m 264.265 ms - 63[0m
+2023-01-30 13:57:19 info: =================================
+2023-01-30 13:57:19 info: ======= ENV: development =======
+2023-01-30 13:57:19 info: 🚀 App listening on the port 3000
+2023-01-30 13:57:19 info: =================================
+2023-01-30 13:57:32 info: [0mOPTIONS /users [32m204[0m 1.181 ms - 0[0m
+2023-01-30 13:57:33 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:57:33 info: [0mPOST /users [31m500[0m 225.719 ms - 63[0m
+2023-01-30 13:58:18 info: =================================
+2023-01-30 13:58:18 info: ======= ENV: development =======
+2023-01-30 13:58:18 info: 🚀 App listening on the port 3000
+2023-01-30 13:58:18 info: =================================
+2023-01-30 13:58:20 info: [0mOPTIONS /users [32m204[0m 1.109 ms - 0[0m
+2023-01-30 13:58:21 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 13:58:21 info: [0mPOST /users [31m500[0m 235.528 ms - 63[0m
+2023-01-30 13:58:26 info: =================================
+2023-01-30 13:58:26 info: ======= ENV: development =======
+2023-01-30 13:58:26 info: 🚀 App listening on the port 3000
+2023-01-30 13:58:26 info: =================================
+2023-01-30 14:01:36 info: =================================
+2023-01-30 14:01:36 info: ======= ENV: development =======
+2023-01-30 14:01:36 info: 🚀 App listening on the port 3000
+2023-01-30 14:01:36 info: =================================
+2023-01-30 14:01:40 info: [0mOPTIONS /users [32m204[0m 1.117 ms - 0[0m
+2023-01-30 14:01:46 info: [0mOPTIONS /users [32m204[0m 0.293 ms - 0[0m
+2023-01-30 14:01:58 info: =================================
+2023-01-30 14:01:58 info: ======= ENV: development =======
+2023-01-30 14:01:58 info: 🚀 App listening on the port 3000
+2023-01-30 14:01:58 info: =================================
+2023-01-30 14:02:39 info: =================================
+2023-01-30 14:02:39 info: ======= ENV: development =======
+2023-01-30 14:02:39 info: 🚀 App listening on the port 3000
+2023-01-30 14:02:39 info: =================================
+2023-01-30 14:02:42 info: [0mOPTIONS /users [32m204[0m 1.346 ms - 0[0m
+2023-01-30 14:02:42 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 14:02:42 info: [0mPOST /users [31m500[0m 241.477 ms - 63[0m
+2023-01-30 14:04:52 info: =================================
+2023-01-30 14:04:52 info: ======= ENV: development =======
+2023-01-30 14:04:52 info: 🚀 App listening on the port 3000
+2023-01-30 14:04:52 info: =================================
+2023-01-30 14:34:15 info: [0mOPTIONS /users [32m204[0m 1.026 ms - 0[0m
+2023-01-30 14:34:15 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 14:34:15 info: [0mPOST /users [31m500[0m 312.840 ms - 63[0m
+2023-01-30 14:44:32 info: [0mOPTIONS /users [32m204[0m 0.197 ms - 0[0m
+2023-01-30 14:44:33 info: [0mGET /users [36m304[0m 485.420 ms - -[0m
+2023-01-30 14:44:50 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 14:44:50 info: [0mGET /users [36m304[0m 464.317 ms - -[0m
+2023-01-30 14:44:58 info: [0mOPTIONS /users [32m204[0m 0.105 ms - 0[0m
+2023-01-30 14:44:58 info: [0mGET /users [36m304[0m 421.887 ms - -[0m
+2023-01-30 14:45:07 info: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2023-01-30 14:45:08 info: [0mGET /users [36m304[0m 463.330 ms - -[0m
+2023-01-30 14:45:51 info: [0mOPTIONS /users [32m204[0m 0.099 ms - 0[0m
+2023-01-30 14:45:51 info: [0mGET /users [36m304[0m 469.249 ms - -[0m
+2023-01-30 14:46:33 info: [0mOPTIONS /users [32m204[0m 0.117 ms - 0[0m
+2023-01-30 14:46:34 info: [0mGET /users [36m304[0m 477.549 ms - -[0m
+2023-01-30 14:46:55 info: [0mOPTIONS /users [32m204[0m 0.119 ms - 0[0m
+2023-01-30 14:46:55 info: [0mGET /users [36m304[0m 493.738 ms - -[0m
+2023-01-30 14:47:23 info: [0mOPTIONS /users [32m204[0m 0.110 ms - 0[0m
+2023-01-30 14:47:23 info: [0mGET /users [36m304[0m 409.843 ms - -[0m
+2023-01-30 14:47:33 info: [0mOPTIONS /users [32m204[0m 0.156 ms - 0[0m
+2023-01-30 14:47:33 info: [0mGET /users [36m304[0m 449.844 ms - -[0m
+2023-01-30 14:47:44 info: [0mOPTIONS /users [32m204[0m 0.124 ms - 0[0m
+2023-01-30 14:47:45 info: [0mGET /users [36m304[0m 435.189 ms - -[0m
+2023-01-30 14:48:02 info: [0mOPTIONS /users [32m204[0m 0.116 ms - 0[0m
+2023-01-30 14:48:02 info: [0mGET /users [36m304[0m 458.036 ms - -[0m
+2023-01-30 14:48:48 info: [0mOPTIONS /users [32m204[0m 0.109 ms - 0[0m
+2023-01-30 14:48:48 info: [0mGET /users [36m304[0m 541.038 ms - -[0m
+2023-01-30 14:49:15 info: [0mOPTIONS /users [32m204[0m 0.106 ms - 0[0m
+2023-01-30 14:49:15 info: [0mGET /users [36m304[0m 479.469 ms - -[0m
+2023-01-30 14:49:58 info: [0mOPTIONS /users [32m204[0m 0.850 ms - 0[0m
+2023-01-30 14:49:59 info: [0mGET /users [36m304[0m 593.062 ms - -[0m
+2023-01-30 14:50:35 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 14:50:36 info: [0mGET /users [36m304[0m 527.471 ms - -[0m
+2023-01-30 14:50:44 info: [0mOPTIONS /users [32m204[0m 0.099 ms - 0[0m
+2023-01-30 14:50:45 info: [0mGET /users [36m304[0m 440.463 ms - -[0m
+2023-01-30 14:50:48 info: [0mOPTIONS /users/cst_xvVQD6mMY4 [32m204[0m 0.110 ms - 0[0m
+2023-01-30 14:50:48 info: [0mGET /users/cst_xvVQD6mMY4 [32m200[0m 203.107 ms - 546[0m
+2023-01-30 14:50:48 info: [0mOPTIONS /users/payments/cst_xvVQD6mMY4 [32m204[0m 0.088 ms - 0[0m
+2023-01-30 14:50:48 info: [0mOPTIONS /users/mandates/cst_xvVQD6mMY4 [32m204[0m 0.062 ms - 0[0m
+2023-01-30 14:50:48 info: [0mOPTIONS /users/subscriptions/cst_xvVQD6mMY4 [32m204[0m 0.080 ms - 0[0m
+2023-01-30 14:50:49 info: [0mGET /users/mandates/cst_xvVQD6mMY4 [32m200[0m 236.172 ms - 40[0m
+2023-01-30 14:50:49 info: [0mGET /users/subscriptions/cst_xvVQD6mMY4 [32m200[0m 211.585 ms - 49[0m
+2023-01-30 14:50:49 info: [0mGET /users/payments/cst_xvVQD6mMY4 [32m200[0m 240.260 ms - 40[0m
+2023-01-30 14:51:15 info: [0mOPTIONS /users [32m204[0m 0.087 ms - 0[0m
+2023-01-30 14:51:16 info: [0mGET /users [36m304[0m 428.629 ms - -[0m
+2023-01-30 14:51:47 info: [0mOPTIONS /users [32m204[0m 0.128 ms - 0[0m
+2023-01-30 14:51:47 info: [0mGET /users [36m304[0m 462.118 ms - -[0m
+2023-01-30 14:51:54 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 14:51:54 info: [0mGET /users [36m304[0m 487.650 ms - -[0m
+2023-01-30 14:52:29 info: [0mOPTIONS /users [32m204[0m 0.097 ms - 0[0m
+2023-01-30 14:52:29 info: [0mGET /users [36m304[0m 427.909 ms - -[0m
+2023-01-30 14:53:10 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 14:53:10 info: [0mGET /users [36m304[0m 428.835 ms - -[0m
+2023-01-30 15:01:56 info: [0mOPTIONS /users [32m204[0m 0.111 ms - 0[0m
+2023-01-30 15:01:57 info: [0mGET /users [36m304[0m 548.290 ms - -[0m
+2023-01-30 15:02:10 info: [0mOPTIONS /users [32m204[0m 0.137 ms - 0[0m
+2023-01-30 15:02:11 info: [0mGET /users [36m304[0m 483.596 ms - -[0m
+2023-01-30 15:06:27 info: =================================
+2023-01-30 15:06:27 info: ======= ENV: development =======
+2023-01-30 15:06:27 info: 🚀 App listening on the port 3000
+2023-01-30 15:06:27 info: =================================
+2023-01-30 15:07:12 info: [0mOPTIONS /users [32m204[0m 1.314 ms - 0[0m
+2023-01-30 15:07:12 error: [GET] /users >> StatusCode:: 500, Message:: Cannot access 'payments' before initialization
+2023-01-30 15:07:12 info: [0mGET /users [31m500[0m 653.584 ms - 60[0m
+2023-01-30 15:07:36 error: [GET] /users >> StatusCode:: 500, Message:: Cannot access 'payments' before initialization
+2023-01-30 15:07:36 info: [0mGET /users [31m500[0m 607.452 ms - 60[0m
+2023-01-30 15:08:47 info: =================================
+2023-01-30 15:08:47 info: ======= ENV: development =======
+2023-01-30 15:08:47 info: 🚀 App listening on the port 3000
+2023-01-30 15:08:47 info: =================================
+2023-01-30 15:08:49 info: [0mGET /users [32m200[0m 549.590 ms - -[0m
+2023-01-30 15:12:42 info: =================================
+2023-01-30 15:12:42 info: ======= ENV: development =======
+2023-01-30 15:12:42 info: 🚀 App listening on the port 3000
+2023-01-30 15:12:42 info: =================================
+2023-01-30 15:12:46 info: [0mOPTIONS /users [32m204[0m 1.298 ms - 0[0m
+2023-01-30 15:12:47 info: [0mGET /users [32m200[0m 887.295 ms - -[0m
+2023-01-30 15:21:13 info: [0mOPTIONS /users [32m204[0m 0.127 ms - 0[0m
+2023-01-30 15:21:14 info: [0mGET /users [36m304[0m 876.444 ms - -[0m
+2023-01-30 15:28:28 info: [0mOPTIONS /users [32m204[0m 0.112 ms - 0[0m
+2023-01-30 15:28:29 info: [0mGET /users [36m304[0m 531.694 ms - -[0m
+2023-01-30 15:39:01 info: =================================
+2023-01-30 15:39:01 info: ======= ENV: development =======
+2023-01-30 15:39:01 info: 🚀 App listening on the port 3000
+2023-01-30 15:39:01 info: =================================
+2023-01-30 15:39:09 info: [0mOPTIONS /users [32m204[0m 1.474 ms - 0[0m
+2023-01-30 15:39:09 info: [0mGET /users [32m200[0m 576.987 ms - -[0m
+2023-01-30 15:39:10 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.132 ms - 0[0m
+2023-01-30 15:39:11 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 213.188 ms - -[0m
+2023-01-30 15:39:11 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.108 ms - 0[0m
+2023-01-30 15:39:11 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 15:39:11 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.089 ms - 0[0m
+2023-01-30 15:39:11 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 242.252 ms - -[0m
+2023-01-30 15:39:11 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 235.841 ms - -[0m
+2023-01-30 15:39:11 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 218.694 ms - -[0m
+2023-01-30 15:39:28 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.100 ms - 0[0m
+2023-01-30 15:39:28 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 195.726 ms - -[0m
+2023-01-30 15:39:28 info: [0mOPTIONS /users/payments/cst_oPjNFW3Vwq [32m204[0m 0.141 ms - 0[0m
+2023-01-30 15:39:28 info: [0mOPTIONS /users/subscriptions/cst_oPjNFW3Vwq [32m204[0m 0.101 ms - 0[0m
+2023-01-30 15:39:28 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.234 ms - 0[0m
+2023-01-30 15:39:28 info: [0mGET /users/subscriptions/cst_oPjNFW3Vwq [36m304[0m 234.881 ms - -[0m
+2023-01-30 15:39:28 info: [0mGET /users/payments/cst_oPjNFW3Vwq [36m304[0m 212.711 ms - -[0m
+2023-01-30 15:39:28 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 205.426 ms - -[0m
+2023-01-30 15:39:33 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.156 ms - 0[0m
+2023-01-30 15:39:33 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 216.046 ms - -[0m
+2023-01-30 15:39:33 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.116 ms - 0[0m
+2023-01-30 15:39:33 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 15:39:33 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.075 ms - 0[0m
+2023-01-30 15:39:33 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 203.839 ms - -[0m
+2023-01-30 15:39:33 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 233.313 ms - -[0m
+2023-01-30 15:39:33 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 278.625 ms - -[0m
+2023-01-30 15:48:33 info: [0mOPTIONS /users [32m204[0m 0.142 ms - 0[0m
+2023-01-30 15:48:34 info: [0mGET /users [36m304[0m 965.180 ms - -[0m
+2023-01-30 15:49:10 info: [0mOPTIONS /users/cst_Uidd2NjBet [32m204[0m 0.302 ms - 0[0m
+2023-01-30 15:49:10 info: [0mGET /users/cst_Uidd2NjBet [36m304[0m 223.661 ms - -[0m
+2023-01-30 15:49:10 info: [0mOPTIONS /users/payments/cst_Uidd2NjBet [32m204[0m 0.169 ms - 0[0m
+2023-01-30 15:49:10 info: [0mOPTIONS /users/subscriptions/cst_Uidd2NjBet [32m204[0m 0.115 ms - 0[0m
+2023-01-30 15:49:10 info: [0mOPTIONS /users/mandates/cst_Uidd2NjBet [32m204[0m 0.064 ms - 0[0m
+2023-01-30 15:49:10 info: [0mGET /users/payments/cst_Uidd2NjBet [36m304[0m 274.279 ms - -[0m
+2023-01-30 15:49:10 info: [0mGET /users/mandates/cst_Uidd2NjBet [36m304[0m 221.416 ms - -[0m
+2023-01-30 15:49:11 info: [0mGET /users/subscriptions/cst_Uidd2NjBet [36m304[0m 368.558 ms - -[0m
+2023-01-30 15:49:13 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.093 ms - 0[0m
+2023-01-30 15:49:13 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 217.297 ms - -[0m
+2023-01-30 15:49:13 info: [0mOPTIONS /users/payments/cst_oPjNFW3Vwq [32m204[0m 0.083 ms - 0[0m
+2023-01-30 15:49:13 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.091 ms - 0[0m
+2023-01-30 15:49:13 info: [0mOPTIONS /users/subscriptions/cst_oPjNFW3Vwq [32m204[0m 0.063 ms - 0[0m
+2023-01-30 15:49:13 info: [0mGET /users/payments/cst_oPjNFW3Vwq [36m304[0m 262.391 ms - -[0m
+2023-01-30 15:49:13 info: [0mGET /users/subscriptions/cst_oPjNFW3Vwq [36m304[0m 230.992 ms - -[0m
+2023-01-30 15:49:13 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 263.521 ms - -[0m
+2023-01-30 15:49:43 info: [0mOPTIONS /users [32m204[0m 0.106 ms - 0[0m
+2023-01-30 15:49:44 info: [0mGET /users [36m304[0m 449.182 ms - -[0m
+2023-01-30 15:56:14 info: =================================
+2023-01-30 15:56:14 info: ======= ENV: development =======
+2023-01-30 15:56:14 info: 🚀 App listening on the port 3000
+2023-01-30 15:56:14 info: =================================
+2023-01-30 15:56:17 info: [0mOPTIONS /users [32m204[0m 1.434 ms - 0[0m
+2023-01-30 15:56:18 error: [GET] /users >> StatusCode:: 500, Message:: payments.includes is not a function
+2023-01-30 15:56:18 info: [0mGET /users [31m500[0m 613.016 ms - 49[0m
+2023-01-30 15:57:17 info: =================================
+2023-01-30 15:57:17 info: ======= ENV: development =======
+2023-01-30 15:57:17 info: 🚀 App listening on the port 3000
+2023-01-30 15:57:17 info: =================================
+2023-01-30 15:57:46 info: =================================
+2023-01-30 15:57:46 info: ======= ENV: development =======
+2023-01-30 15:57:46 info: 🚀 App listening on the port 3000
+2023-01-30 15:57:46 info: =================================
+2023-01-30 15:57:48 info: [0mOPTIONS /users [32m204[0m 1.139 ms - 0[0m
+2023-01-30 15:57:50 info: [0mGET /users [32m200[0m 1672.484 ms - -[0m
+2023-01-30 15:59:10 info: =================================
+2023-01-30 15:59:10 info: ======= ENV: development =======
+2023-01-30 15:59:10 info: 🚀 App listening on the port 3000
+2023-01-30 15:59:10 info: =================================
+2023-01-30 15:59:15 info: [0mOPTIONS /users [32m204[0m 1.373 ms - 0[0m
+2023-01-30 15:59:16 info: [0mGET /users [36m304[0m 949.740 ms - -[0m
+2023-01-30 16:01:00 info: =================================
+2023-01-30 16:01:00 info: ======= ENV: development =======
+2023-01-30 16:01:00 info: 🚀 App listening on the port 3000
+2023-01-30 16:01:00 info: =================================
+2023-01-30 16:01:04 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 1.113 ms - 0[0m
+2023-01-30 16:01:04 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 430.368 ms - -[0m
+2023-01-30 16:01:04 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.177 ms - 0[0m
+2023-01-30 16:01:04 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.281 ms - 0[0m
+2023-01-30 16:01:04 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.080 ms - 0[0m
+2023-01-30 16:01:05 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 207.637 ms - -[0m
+2023-01-30 16:01:05 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 260.055 ms - -[0m
+2023-01-30 16:01:05 info: [0mGET /users/payments/cst_gU63RbSfFM [32m200[0m 329.970 ms - -[0m
+2023-01-30 16:01:09 info: [0mOPTIONS /users [32m204[0m 0.164 ms - 0[0m
+2023-01-30 16:01:10 info: [0mGET /users [36m304[0m 550.261 ms - -[0m
+2023-01-30 16:03:54 info: =================================
+2023-01-30 16:03:54 info: ======= ENV: development =======
+2023-01-30 16:03:54 info: 🚀 App listening on the port 3000
+2023-01-30 16:03:54 info: =================================
+2023-01-30 16:03:58 info: [0mOPTIONS /users [32m204[0m 1.197 ms - 0[0m
+2023-01-30 16:03:59 info: [0mGET /users [32m200[0m 726.382 ms - -[0m
+2023-01-30 16:04:51 info: =================================
+2023-01-30 16:04:51 info: ======= ENV: development =======
+2023-01-30 16:04:51 info: 🚀 App listening on the port 3000
+2023-01-30 16:04:51 info: =================================
+2023-01-30 16:05:02 info: [0mOPTIONS /users [32m204[0m 1.923 ms - 0[0m
+2023-01-30 16:05:03 info: [0mGET /users [32m200[0m 677.429 ms - -[0m
+2023-01-30 16:06:47 info: =================================
+2023-01-30 16:06:47 info: ======= ENV: development =======
+2023-01-30 16:06:47 info: 🚀 App listening on the port 3000
+2023-01-30 16:06:47 info: =================================
+2023-01-30 16:06:51 info: [0mOPTIONS /users [32m204[0m 1.151 ms - 0[0m
+2023-01-30 16:06:51 info: [0mGET /users [36m304[0m 569.010 ms - -[0m
+2023-01-30 16:07:04 info: =================================
+2023-01-30 16:07:04 info: ======= ENV: development =======
+2023-01-30 16:07:04 info: 🚀 App listening on the port 3000
+2023-01-30 16:07:04 info: =================================
+2023-01-30 16:07:21 info: =================================
+2023-01-30 16:07:21 info: ======= ENV: development =======
+2023-01-30 16:07:21 info: 🚀 App listening on the port 3000
+2023-01-30 16:07:21 info: =================================
+2023-01-30 16:07:25 info: [0mOPTIONS /users [32m204[0m 1.162 ms - 0[0m
+2023-01-30 16:07:26 info: [0mGET /users [32m200[0m 563.685 ms - -[0m
+2023-01-30 16:08:04 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.280 ms - 0[0m
+2023-01-30 16:08:04 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 253.748 ms - -[0m
+2023-01-30 16:08:04 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.099 ms - 0[0m
+2023-01-30 16:08:04 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.094 ms - 0[0m
+2023-01-30 16:08:04 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:08:04 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 312.312 ms - -[0m
+2023-01-30 16:08:04 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 258.066 ms - -[0m
+2023-01-30 16:08:05 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 674.864 ms - -[0m
+2023-01-30 16:08:31 info: [0mOPTIONS /users [32m204[0m 0.143 ms - 0[0m
+2023-01-30 16:08:31 info: [0mGET /users [36m304[0m 569.752 ms - -[0m
+2023-01-30 16:09:27 info: [0mOPTIONS /users [32m204[0m 0.163 ms - 0[0m
+2023-01-30 16:09:27 info: [0mGET /users [36m304[0m 740.625 ms - -[0m
+2023-01-30 16:09:41 info: [0mOPTIONS /users [32m204[0m 0.158 ms - 0[0m
+2023-01-30 16:09:42 info: [0mGET /users [36m304[0m 1084.101 ms - -[0m
+2023-01-30 16:12:53 info: [0mOPTIONS /users [32m204[0m 0.153 ms - 0[0m
+2023-01-30 16:12:54 info: [0mGET /users [36m304[0m 958.100 ms - -[0m
+2023-01-30 16:13:06 info: [0mOPTIONS /users [32m204[0m 0.132 ms - 0[0m
+2023-01-30 16:13:06 info: [0mGET /users [36m304[0m 568.283 ms - -[0m
+2023-01-30 16:14:19 info: [0mOPTIONS /users [32m204[0m 0.154 ms - 0[0m
+2023-01-30 16:14:19 info: [0mGET /users [36m304[0m 560.866 ms - -[0m
+2023-01-30 16:14:26 info: [0mOPTIONS /users [32m204[0m 0.148 ms - 0[0m
+2023-01-30 16:14:26 info: [0mGET /users [36m304[0m 563.317 ms - -[0m
+2023-01-30 16:15:11 info: [0mOPTIONS /users [32m204[0m 1.130 ms - 0[0m
+2023-01-30 16:15:12 info: [0mGET /users [36m304[0m 740.680 ms - -[0m
+2023-01-30 16:15:24 info: [0mOPTIONS /users [32m204[0m 0.123 ms - 0[0m
+2023-01-30 16:15:25 info: [0mGET /users [36m304[0m 946.821 ms - -[0m
+2023-01-30 16:15:37 info: [0mOPTIONS /users [32m204[0m 0.117 ms - 0[0m
+2023-01-30 16:15:38 info: [0mGET /users [36m304[0m 789.648 ms - -[0m
+2023-01-30 16:16:11 info: [0mOPTIONS /users [32m204[0m 0.124 ms - 0[0m
+2023-01-30 16:16:12 info: [0mGET /users [36m304[0m 706.076 ms - -[0m
+2023-01-30 16:17:52 info: [0mOPTIONS /users [32m204[0m 0.112 ms - 0[0m
+2023-01-30 16:17:53 info: [0mGET /users [36m304[0m 584.772 ms - -[0m
+2023-01-30 16:18:18 info: [0mOPTIONS /users [32m204[0m 0.130 ms - 0[0m
+2023-01-30 16:18:19 info: [0mGET /users [36m304[0m 557.940 ms - -[0m
+2023-01-30 16:18:45 info: [0mOPTIONS /users [32m204[0m 0.120 ms - 0[0m
+2023-01-30 16:18:45 info: [0mGET /users [36m304[0m 538.381 ms - -[0m
+2023-01-30 16:19:14 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:19:15 info: [0mGET /users [36m304[0m 492.822 ms - -[0m
+2023-01-30 16:19:21 info: [0mOPTIONS /users [32m204[0m 0.087 ms - 0[0m
+2023-01-30 16:19:21 info: [0mGET /users [36m304[0m 480.861 ms - -[0m
+2023-01-30 16:19:29 info: [0mOPTIONS /users [32m204[0m 0.112 ms - 0[0m
+2023-01-30 16:19:30 info: [0mGET /users [36m304[0m 526.206 ms - -[0m
+2023-01-30 16:19:49 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:19:50 info: [0mGET /users [36m304[0m 493.233 ms - -[0m
+2023-01-30 16:20:40 info: [0mOPTIONS /users [32m204[0m 0.117 ms - 0[0m
+2023-01-30 16:20:40 info: [0mGET /users [36m304[0m 552.804 ms - -[0m
+2023-01-30 16:20:59 info: [0mOPTIONS /users [32m204[0m 0.098 ms - 0[0m
+2023-01-30 16:21:00 info: [0mGET /users [36m304[0m 540.278 ms - -[0m
+2023-01-30 16:22:00 info: [0mOPTIONS /users [32m204[0m 0.126 ms - 0[0m
+2023-01-30 16:22:01 info: [0mGET /users [36m304[0m 534.588 ms - -[0m
+2023-01-30 16:22:16 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 16:22:16 info: [0mGET /users [36m304[0m 530.129 ms - -[0m
+2023-01-30 16:23:02 info: [0mOPTIONS /users [32m204[0m 0.086 ms - 0[0m
+2023-01-30 16:23:02 info: [0mGET /users [36m304[0m 593.245 ms - -[0m
+2023-01-30 16:23:26 info: [0mOPTIONS /users [32m204[0m 0.111 ms - 0[0m
+2023-01-30 16:23:27 info: [0mGET /users [36m304[0m 507.855 ms - -[0m
+2023-01-30 16:24:07 info: [0mOPTIONS /users [32m204[0m 0.098 ms - 0[0m
+2023-01-30 16:24:07 info: [0mGET /users [36m304[0m 590.159 ms - -[0m
+2023-01-30 16:25:40 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:25:41 info: [0mGET /users [36m304[0m 542.087 ms - -[0m
+2023-01-30 16:26:00 info: [0mOPTIONS /users [32m204[0m 0.097 ms - 0[0m
+2023-01-30 16:26:01 info: [0mGET /users [36m304[0m 520.906 ms - -[0m
+2023-01-30 16:27:17 info: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2023-01-30 16:27:17 info: [0mGET /users [36m304[0m 586.747 ms - -[0m
+2023-01-30 16:30:12 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:30:12 info: [0mGET /users [36m304[0m 522.008 ms - -[0m
+2023-01-30 16:31:05 info: [0mOPTIONS /users [32m204[0m 0.086 ms - 0[0m
+2023-01-30 16:31:05 info: [0mGET /users [36m304[0m 504.572 ms - -[0m
+2023-01-30 16:31:14 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.089 ms - 0[0m
+2023-01-30 16:31:14 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 243.851 ms - -[0m
+2023-01-30 16:31:14 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.129 ms - 0[0m
+2023-01-30 16:31:14 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.073 ms - 0[0m
+2023-01-30 16:31:14 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.060 ms - 0[0m
+2023-01-30 16:31:14 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 254.837 ms - -[0m
+2023-01-30 16:31:14 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 327.272 ms - -[0m
+2023-01-30 16:31:15 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 540.147 ms - -[0m
+2023-01-30 16:32:38 info: [0mOPTIONS /users [32m204[0m 0.097 ms - 0[0m
+2023-01-30 16:32:38 info: [0mGET /users [36m304[0m 550.971 ms - -[0m
+2023-01-30 16:33:32 info: [0mOPTIONS /users [32m204[0m 0.112 ms - 0[0m
+2023-01-30 16:33:33 info: [0mGET /users [36m304[0m 511.130 ms - -[0m
+2023-01-30 16:34:01 info: [0mOPTIONS /users [32m204[0m 0.094 ms - 0[0m
+2023-01-30 16:34:01 info: [0mGET /users [36m304[0m 548.625 ms - -[0m
+2023-01-30 16:34:06 info: [0mOPTIONS /users [32m204[0m 0.126 ms - 0[0m
+2023-01-30 16:34:07 info: [0mGET /users [36m304[0m 749.546 ms - -[0m
+2023-01-30 16:34:24 info: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2023-01-30 16:34:24 info: [0mGET /users [36m304[0m 585.647 ms - -[0m
+2023-01-30 16:36:35 info: [0mOPTIONS /users [32m204[0m 0.094 ms - 0[0m
+2023-01-30 16:36:35 info: [0mGET /users [36m304[0m 546.175 ms - -[0m
+2023-01-30 16:36:36 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:36:36 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 208.933 ms - -[0m
+2023-01-30 16:36:36 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.148 ms - 0[0m
+2023-01-30 16:36:36 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.084 ms - 0[0m
+2023-01-30 16:36:36 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.078 ms - 0[0m
+2023-01-30 16:36:36 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 259.058 ms - -[0m
+2023-01-30 16:36:36 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 248.167 ms - -[0m
+2023-01-30 16:36:36 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 238.589 ms - -[0m
+2023-01-30 16:37:18 info: [0mOPTIONS /users [32m204[0m 0.156 ms - 0[0m
+2023-01-30 16:37:18 info: [0mGET /users [36m304[0m 540.287 ms - -[0m
+2023-01-30 16:37:20 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 16:37:20 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 359.845 ms - -[0m
+2023-01-30 16:37:20 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.089 ms - 0[0m
+2023-01-30 16:37:20 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.083 ms - 0[0m
+2023-01-30 16:37:20 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.062 ms - 0[0m
+2023-01-30 16:37:20 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 240.199 ms - -[0m
+2023-01-30 16:37:20 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 296.582 ms - -[0m
+2023-01-30 16:37:20 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 293.865 ms - -[0m
+2023-01-30 16:38:33 info: [0mOPTIONS /users [32m204[0m 0.114 ms - 0[0m
+2023-01-30 16:38:33 info: [0mGET /users [36m304[0m 493.818 ms - -[0m
+2023-01-30 16:38:34 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.095 ms - 0[0m
+2023-01-30 16:38:34 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 202.357 ms - -[0m
+2023-01-30 16:38:34 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.080 ms - 0[0m
+2023-01-30 16:38:34 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.086 ms - 0[0m
+2023-01-30 16:38:34 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.083 ms - 0[0m
+2023-01-30 16:38:35 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 234.378 ms - -[0m
+2023-01-30 16:38:35 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 209.764 ms - -[0m
+2023-01-30 16:38:35 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 286.175 ms - -[0m
+2023-01-30 16:38:46 info: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2023-01-30 16:38:47 info: [0mGET /users [36m304[0m 709.913 ms - -[0m
+2023-01-30 16:38:47 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:38:48 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 403.505 ms - -[0m
+2023-01-30 16:38:48 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.079 ms - 0[0m
+2023-01-30 16:38:48 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.073 ms - 0[0m
+2023-01-30 16:38:48 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.056 ms - 0[0m
+2023-01-30 16:38:48 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 352.283 ms - -[0m
+2023-01-30 16:38:48 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 407.904 ms - -[0m
+2023-01-30 16:38:48 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 397.180 ms - -[0m
+2023-01-30 16:39:52 info: [0mOPTIONS /users [32m204[0m 0.101 ms - 0[0m
+2023-01-30 16:39:52 info: [0mGET /users [36m304[0m 522.572 ms - -[0m
+2023-01-30 16:40:14 info: [0mOPTIONS /users [32m204[0m 0.094 ms - 0[0m
+2023-01-30 16:40:14 info: [0mGET /users [36m304[0m 528.981 ms - -[0m
+2023-01-30 16:40:43 info: [0mOPTIONS /users [32m204[0m 0.151 ms - 0[0m
+2023-01-30 16:40:44 info: [0mGET /users [36m304[0m 595.229 ms - -[0m
+2023-01-30 16:40:47 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.088 ms - 0[0m
+2023-01-30 16:40:47 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 199.764 ms - -[0m
+2023-01-30 16:40:47 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:40:47 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.081 ms - 0[0m
+2023-01-30 16:40:47 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.075 ms - 0[0m
+2023-01-30 16:40:48 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 260.743 ms - -[0m
+2023-01-30 16:40:48 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 211.410 ms - -[0m
+2023-01-30 16:40:48 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 263.210 ms - -[0m
+2023-01-30 16:41:13 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:41:13 info: [0mGET /users [36m304[0m 535.633 ms - -[0m
+2023-01-30 16:41:14 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.094 ms - 0[0m
+2023-01-30 16:41:14 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 220.941 ms - -[0m
+2023-01-30 16:41:14 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.135 ms - 0[0m
+2023-01-30 16:41:14 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.152 ms - 0[0m
+2023-01-30 16:41:14 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.067 ms - 0[0m
+2023-01-30 16:41:14 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 235.894 ms - -[0m
+2023-01-30 16:41:14 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 269.792 ms - -[0m
+2023-01-30 16:41:14 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 218.016 ms - -[0m
+2023-01-30 16:43:25 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:43:26 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 216.239 ms - -[0m
+2023-01-30 16:43:26 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.073 ms - 0[0m
+2023-01-30 16:43:26 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.119 ms - 0[0m
+2023-01-30 16:43:26 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.079 ms - 0[0m
+2023-01-30 16:43:26 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 222.286 ms - -[0m
+2023-01-30 16:43:26 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 244.758 ms - -[0m
+2023-01-30 16:43:26 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 259.959 ms - -[0m
+2023-01-30 16:45:41 info: [0mOPTIONS /users [32m204[0m 0.093 ms - 0[0m
+2023-01-30 16:45:42 info: [0mGET /users [36m304[0m 638.930 ms - -[0m
+2023-01-30 16:45:43 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:45:43 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 221.177 ms - -[0m
+2023-01-30 16:45:43 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.129 ms - 0[0m
+2023-01-30 16:45:43 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.071 ms - 0[0m
+2023-01-30 16:45:43 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.060 ms - 0[0m
+2023-01-30 16:45:43 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 207.418 ms - -[0m
+2023-01-30 16:45:43 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 243.207 ms - -[0m
+2023-01-30 16:45:43 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 286.104 ms - -[0m
+2023-01-30 16:46:06 info: [0mOPTIONS /users [32m204[0m 0.104 ms - 0[0m
+2023-01-30 16:46:06 info: [0mGET /users [36m304[0m 505.560 ms - -[0m
+2023-01-30 16:46:07 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.148 ms - 0[0m
+2023-01-30 16:46:07 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 192.202 ms - -[0m
+2023-01-30 16:46:07 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.079 ms - 0[0m
+2023-01-30 16:46:07 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.065 ms - 0[0m
+2023-01-30 16:46:07 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.057 ms - 0[0m
+2023-01-30 16:46:07 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 252.204 ms - -[0m
+2023-01-30 16:46:07 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 202.289 ms - -[0m
+2023-01-30 16:46:07 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 230.159 ms - -[0m
+2023-01-30 16:46:23 info: [0mOPTIONS /users [32m204[0m 0.130 ms - 0[0m
+2023-01-30 16:46:24 info: [0mGET /users [36m304[0m 529.236 ms - -[0m
+2023-01-30 16:46:26 info: [0mGET /users [36m304[0m 615.708 ms - -[0m
+2023-01-30 16:46:28 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.100 ms - 0[0m
+2023-01-30 16:46:28 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 273.539 ms - -[0m
+2023-01-30 16:46:28 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.083 ms - 0[0m
+2023-01-30 16:46:28 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 16:46:28 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.126 ms - 0[0m
+2023-01-30 16:46:28 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 266.293 ms - -[0m
+2023-01-30 16:46:28 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 239.191 ms - -[0m
+2023-01-30 16:46:28 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 301.168 ms - -[0m
+2023-01-30 16:46:53 info: [0mOPTIONS /users [32m204[0m 0.086 ms - 0[0m
+2023-01-30 16:46:54 info: [0mGET /users [36m304[0m 1085.763 ms - -[0m
+2023-01-30 16:46:55 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 16:46:56 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 276.924 ms - -[0m
+2023-01-30 16:46:56 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 16:46:56 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.125 ms - 0[0m
+2023-01-30 16:46:56 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.077 ms - 0[0m
+2023-01-30 16:46:56 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 412.910 ms - -[0m
+2023-01-30 16:46:56 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 368.545 ms - -[0m
+2023-01-30 16:46:56 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 402.059 ms - -[0m
+2023-01-30 16:54:12 info: [0mOPTIONS /users [32m204[0m 0.126 ms - 0[0m
+2023-01-30 16:54:14 info: [0mGET /users [36m304[0m 1314.700 ms - -[0m
+2023-01-30 16:54:15 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.094 ms - 0[0m
+2023-01-30 16:54:16 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 336.186 ms - -[0m
+2023-01-30 16:54:16 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.095 ms - 0[0m
+2023-01-30 16:54:16 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 16:54:16 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.078 ms - 0[0m
+2023-01-30 16:54:16 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 349.576 ms - -[0m
+2023-01-30 16:54:16 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 384.676 ms - -[0m
+2023-01-30 16:54:16 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 338.725 ms - -[0m
+2023-01-30 16:57:23 info: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2023-01-30 16:57:24 info: [0mGET /users [36m304[0m 517.870 ms - -[0m
+2023-01-30 16:57:25 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.099 ms - 0[0m
+2023-01-30 16:57:25 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 220.299 ms - -[0m
+2023-01-30 16:57:25 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 16:57:25 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:57:25 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.061 ms - 0[0m
+2023-01-30 16:57:25 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 239.592 ms - -[0m
+2023-01-30 16:57:25 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 204.045 ms - -[0m
+2023-01-30 16:57:25 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 271.983 ms - -[0m
+2023-01-30 16:57:52 info: [0mOPTIONS /users [32m204[0m 0.098 ms - 0[0m
+2023-01-30 16:57:52 info: [0mGET /users [36m304[0m 539.007 ms - -[0m
+2023-01-30 16:57:53 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:57:53 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 210.331 ms - -[0m
+2023-01-30 16:57:53 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 16:57:53 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.073 ms - 0[0m
+2023-01-30 16:57:53 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 16:57:53 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 266.541 ms - -[0m
+2023-01-30 16:57:53 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 224.477 ms - -[0m
+2023-01-30 16:57:53 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 253.868 ms - -[0m
+2023-01-30 16:58:02 info: [0mOPTIONS /users [32m204[0m 0.103 ms - 0[0m
+2023-01-30 16:58:03 info: [0mGET /users [36m304[0m 526.636 ms - -[0m
+2023-01-30 16:58:04 info: [0mGET /users [36m304[0m 599.016 ms - -[0m
+2023-01-30 16:58:05 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.097 ms - 0[0m
+2023-01-30 16:58:05 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 200.430 ms - -[0m
+2023-01-30 16:58:05 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 16:58:05 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.138 ms - 0[0m
+2023-01-30 16:58:05 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.088 ms - 0[0m
+2023-01-30 16:58:05 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 199.401 ms - -[0m
+2023-01-30 16:58:05 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 259.269 ms - -[0m
+2023-01-30 16:58:05 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 355.634 ms - -[0m
+2023-01-30 16:59:07 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 16:59:07 info: [0mGET /users [36m304[0m 726.614 ms - -[0m
+2023-01-30 16:59:08 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 16:59:09 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 389.131 ms - -[0m
+2023-01-30 16:59:09 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.088 ms - 0[0m
+2023-01-30 16:59:09 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.084 ms - 0[0m
+2023-01-30 16:59:09 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.116 ms - 0[0m
+2023-01-30 16:59:09 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 272.956 ms - -[0m
+2023-01-30 16:59:09 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 330.468 ms - -[0m
+2023-01-30 16:59:09 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 350.700 ms - -[0m
+2023-01-30 16:59:33 info: [0mOPTIONS /users [32m204[0m 0.087 ms - 0[0m
+2023-01-30 16:59:33 info: [0mGET /users [36m304[0m 525.489 ms - -[0m
+2023-01-30 16:59:34 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.095 ms - 0[0m
+2023-01-30 16:59:34 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 213.702 ms - -[0m
+2023-01-30 16:59:34 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.100 ms - 0[0m
+2023-01-30 16:59:34 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.073 ms - 0[0m
+2023-01-30 16:59:34 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.096 ms - 0[0m
+2023-01-30 16:59:34 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 200.814 ms - -[0m
+2023-01-30 16:59:34 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 228.798 ms - -[0m
+2023-01-30 16:59:34 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 271.762 ms - -[0m
+2023-01-30 17:00:08 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:00:09 info: [0mGET /users [36m304[0m 760.922 ms - -[0m
+2023-01-30 17:00:09 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:00:10 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 398.227 ms - -[0m
+2023-01-30 17:00:10 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 17:00:10 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 1.119 ms - 0[0m
+2023-01-30 17:00:10 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.064 ms - 0[0m
+2023-01-30 17:00:10 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 365.448 ms - -[0m
+2023-01-30 17:00:10 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 423.200 ms - -[0m
+2023-01-30 17:00:10 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 412.204 ms - -[0m
+2023-01-30 17:00:29 info: [0mOPTIONS /users [32m204[0m 0.883 ms - 0[0m
+2023-01-30 17:00:29 info: [0mGET /users [36m304[0m 703.910 ms - -[0m
+2023-01-30 17:00:30 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.089 ms - 0[0m
+2023-01-30 17:00:30 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 388.858 ms - -[0m
+2023-01-30 17:00:30 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.084 ms - 0[0m
+2023-01-30 17:00:30 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.134 ms - 0[0m
+2023-01-30 17:00:30 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.066 ms - 0[0m
+2023-01-30 17:00:30 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 406.830 ms - -[0m
+2023-01-30 17:00:30 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 435.004 ms - -[0m
+2023-01-30 17:00:31 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 1053.426 ms - -[0m
+2023-01-30 17:03:24 info: =================================
+2023-01-30 17:03:24 info: ======= ENV: development =======
+2023-01-30 17:03:24 info: 🚀 App listening on the port 3000
+2023-01-30 17:03:24 info: =================================
+2023-01-30 17:03:31 info: =================================
+2023-01-30 17:03:31 info: ======= ENV: development =======
+2023-01-30 17:03:31 info: 🚀 App listening on the port 3000
+2023-01-30 17:03:31 info: =================================
+2023-01-30 17:03:45 info: =================================
+2023-01-30 17:03:45 info: ======= ENV: development =======
+2023-01-30 17:03:45 info: 🚀 App listening on the port 3000
+2023-01-30 17:03:45 info: =================================
+2023-01-30 17:03:48 info: [0mOPTIONS /users [32m204[0m 1.259 ms - 0[0m
+2023-01-30 17:03:48 info: [0mGET /users [32m200[0m 626.684 ms - -[0m
+2023-01-30 17:03:53 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.122 ms - 0[0m
+2023-01-30 17:03:53 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 231.076 ms - -[0m
+2023-01-30 17:03:53 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 17:03:53 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.066 ms - 0[0m
+2023-01-30 17:03:53 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.084 ms - 0[0m
+2023-01-30 17:03:53 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 239.528 ms - -[0m
+2023-01-30 17:03:53 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 197.733 ms - -[0m
+2023-01-30 17:03:53 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 243.194 ms - -[0m
+2023-01-30 17:06:49 info: =================================
+2023-01-30 17:06:49 info: ======= ENV: development =======
+2023-01-30 17:06:49 info: 🚀 App listening on the port 3000
+2023-01-30 17:06:49 info: =================================
+2023-01-30 17:06:54 info: [0mOPTIONS /users [32m204[0m 1.690 ms - 0[0m
+2023-01-30 17:06:55 info: [0mGET /users [36m304[0m 570.898 ms - -[0m
+2023-01-30 17:08:21 info: =================================
+2023-01-30 17:08:21 info: ======= ENV: development =======
+2023-01-30 17:08:21 info: 🚀 App listening on the port 3000
+2023-01-30 17:08:21 info: =================================
+2023-01-30 17:08:23 info: [0mOPTIONS /users [32m204[0m 1.352 ms - 0[0m
+2023-01-30 17:08:24 info: [0mGET /users [32m200[0m 616.241 ms - -[0m
+2023-01-30 17:10:12 info: [0mOPTIONS /users [32m204[0m 0.130 ms - 0[0m
+2023-01-30 17:10:12 info: [0mGET /users [36m304[0m 519.758 ms - -[0m
+2023-01-30 17:10:13 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.358 ms - 0[0m
+2023-01-30 17:10:13 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 418.359 ms - -[0m
+2023-01-30 17:10:13 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.096 ms - 0[0m
+2023-01-30 17:10:13 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.125 ms - 0[0m
+2023-01-30 17:10:13 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.079 ms - 0[0m
+2023-01-30 17:10:13 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 236.241 ms - -[0m
+2023-01-30 17:10:13 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 224.954 ms - -[0m
+2023-01-30 17:10:13 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 281.838 ms - -[0m
+2023-01-30 17:10:45 info: [0mOPTIONS /users [32m204[0m 0.160 ms - 0[0m
+2023-01-30 17:10:46 info: [0mGET /users [36m304[0m 553.224 ms - -[0m
+2023-01-30 17:10:48 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.153 ms - 0[0m
+2023-01-30 17:10:48 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 302.058 ms - -[0m
+2023-01-30 17:10:48 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.261 ms - 0[0m
+2023-01-30 17:10:48 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.117 ms - 0[0m
+2023-01-30 17:10:48 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.102 ms - 0[0m
+2023-01-30 17:10:48 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 197.936 ms - -[0m
+2023-01-30 17:10:48 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 198.869 ms - -[0m
+2023-01-30 17:10:48 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 260.053 ms - -[0m
+2023-01-30 17:10:56 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.140 ms - 0[0m
+2023-01-30 17:10:56 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 324.360 ms - -[0m
+2023-01-30 17:10:56 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.180 ms - 0[0m
+2023-01-30 17:10:56 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.151 ms - 0[0m
+2023-01-30 17:10:56 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.095 ms - 0[0m
+2023-01-30 17:10:56 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 233.847 ms - -[0m
+2023-01-30 17:10:56 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 219.603 ms - -[0m
+2023-01-30 17:10:56 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 203.660 ms - -[0m
+2023-01-30 17:11:07 info: [0mOPTIONS /users [32m204[0m 0.107 ms - 0[0m
+2023-01-30 17:11:08 info: [0mGET /users [36m304[0m 544.830 ms - -[0m
+2023-01-30 17:11:10 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.107 ms - 0[0m
+2023-01-30 17:11:10 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 228.771 ms - -[0m
+2023-01-30 17:11:10 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.113 ms - 0[0m
+2023-01-30 17:11:10 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.076 ms - 0[0m
+2023-01-30 17:11:10 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.061 ms - 0[0m
+2023-01-30 17:11:10 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 210.204 ms - -[0m
+2023-01-30 17:11:10 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 253.217 ms - -[0m
+2023-01-30 17:11:10 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 411.980 ms - -[0m
+2023-01-30 17:11:44 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:11:45 info: [0mGET /users [36m304[0m 809.296 ms - -[0m
+2023-01-30 17:11:47 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.115 ms - 0[0m
+2023-01-30 17:11:47 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 326.169 ms - -[0m
+2023-01-30 17:11:47 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.168 ms - 0[0m
+2023-01-30 17:11:47 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.112 ms - 0[0m
+2023-01-30 17:11:47 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:11:47 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 381.616 ms - -[0m
+2023-01-30 17:11:47 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 370.852 ms - -[0m
+2023-01-30 17:11:47 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 399.230 ms - -[0m
+2023-01-30 17:12:29 info: [0mOPTIONS /users [32m204[0m 0.896 ms - 0[0m
+2023-01-30 17:12:29 info: [0mGET /users [36m304[0m 481.510 ms - -[0m
+2023-01-30 17:12:32 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:12:32 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 234.057 ms - -[0m
+2023-01-30 17:12:32 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.110 ms - 0[0m
+2023-01-30 17:12:32 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.077 ms - 0[0m
+2023-01-30 17:12:32 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.059 ms - 0[0m
+2023-01-30 17:12:32 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 201.149 ms - -[0m
+2023-01-30 17:12:32 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 229.172 ms - -[0m
+2023-01-30 17:12:32 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 261.385 ms - -[0m
+2023-01-30 17:13:06 info: [0mOPTIONS /users [32m204[0m 0.086 ms - 0[0m
+2023-01-30 17:13:07 info: [0mGET /users [36m304[0m 503.033 ms - -[0m
+2023-01-30 17:13:08 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:13:08 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 200.651 ms - -[0m
+2023-01-30 17:13:08 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.099 ms - 0[0m
+2023-01-30 17:13:08 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.063 ms - 0[0m
+2023-01-30 17:13:08 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.088 ms - 0[0m
+2023-01-30 17:13:08 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 226.449 ms - -[0m
+2023-01-30 17:13:08 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 213.795 ms - -[0m
+2023-01-30 17:13:08 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 396.692 ms - -[0m
+2023-01-30 17:13:15 info: [0mOPTIONS /users [32m204[0m 0.087 ms - 0[0m
+2023-01-30 17:13:16 info: [0mGET /users [36m304[0m 518.735 ms - -[0m
+2023-01-30 17:13:17 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:13:17 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 196.084 ms - -[0m
+2023-01-30 17:13:17 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.083 ms - 0[0m
+2023-01-30 17:13:17 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.082 ms - 0[0m
+2023-01-30 17:13:17 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 17:13:17 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 208.330 ms - -[0m
+2023-01-30 17:13:17 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 277.373 ms - -[0m
+2023-01-30 17:13:17 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 258.448 ms - -[0m
+2023-01-30 17:13:36 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:13:37 info: [0mGET /users [36m304[0m 549.581 ms - -[0m
+2023-01-30 17:13:37 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:13:37 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 197.059 ms - -[0m
+2023-01-30 17:13:37 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.080 ms - 0[0m
+2023-01-30 17:13:37 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.100 ms - 0[0m
+2023-01-30 17:13:37 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.078 ms - 0[0m
+2023-01-30 17:13:37 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 226.530 ms - -[0m
+2023-01-30 17:13:37 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 197.736 ms - -[0m
+2023-01-30 17:13:37 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 242.736 ms - -[0m
+2023-01-30 17:13:59 info: [0mOPTIONS /users [32m204[0m 0.088 ms - 0[0m
+2023-01-30 17:14:00 info: [0mGET /users [36m304[0m 625.496 ms - -[0m
+2023-01-30 17:14:00 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.089 ms - 0[0m
+2023-01-30 17:14:01 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 246.727 ms - -[0m
+2023-01-30 17:14:01 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.097 ms - 0[0m
+2023-01-30 17:14:01 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.074 ms - 0[0m
+2023-01-30 17:14:01 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.080 ms - 0[0m
+2023-01-30 17:14:01 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 272.869 ms - -[0m
+2023-01-30 17:14:01 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 252.185 ms - -[0m
+2023-01-30 17:14:01 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 238.043 ms - -[0m
+2023-01-30 17:14:10 info: [0mOPTIONS /users [32m204[0m 0.234 ms - 0[0m
+2023-01-30 17:14:10 info: [0mGET /users [36m304[0m 552.183 ms - -[0m
+2023-01-30 17:16:09 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:16:09 info: [0mGET /users [36m304[0m 535.568 ms - -[0m
+2023-01-30 17:16:10 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.096 ms - 0[0m
+2023-01-30 17:16:10 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 195.947 ms - -[0m
+2023-01-30 17:16:10 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.128 ms - 0[0m
+2023-01-30 17:16:10 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.088 ms - 0[0m
+2023-01-30 17:16:10 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.065 ms - 0[0m
+2023-01-30 17:16:10 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 216.236 ms - -[0m
+2023-01-30 17:16:10 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 275.140 ms - -[0m
+2023-01-30 17:16:10 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 283.977 ms - -[0m
+2023-01-30 17:16:25 info: [0mOPTIONS /users [32m204[0m 0.088 ms - 0[0m
+2023-01-30 17:16:26 info: [0mGET /users [36m304[0m 559.765 ms - -[0m
+2023-01-30 17:16:26 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.096 ms - 0[0m
+2023-01-30 17:16:27 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 237.166 ms - -[0m
+2023-01-30 17:16:27 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:16:27 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.075 ms - 0[0m
+2023-01-30 17:16:27 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 17:16:27 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 198.051 ms - -[0m
+2023-01-30 17:16:27 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 235.136 ms - -[0m
+2023-01-30 17:16:27 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 265.377 ms - -[0m
+2023-01-30 17:17:15 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 17:17:16 info: [0mGET /users [36m304[0m 537.459 ms - -[0m
+2023-01-30 17:17:58 info: [0mOPTIONS /users [32m204[0m 0.122 ms - 0[0m
+2023-01-30 17:17:59 info: [0mGET /users [36m304[0m 488.813 ms - -[0m
+2023-01-30 17:18:46 info: [0mOPTIONS /users [32m204[0m 0.119 ms - 0[0m
+2023-01-30 17:18:47 info: [0mGET /users [36m304[0m 552.162 ms - -[0m
+2023-01-30 17:19:06 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:19:07 info: [0mGET /users [36m304[0m 616.064 ms - -[0m
+2023-01-30 17:19:33 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 17:19:34 info: [0mGET /users [36m304[0m 536.823 ms - -[0m
+2023-01-30 17:24:58 info: [0mOPTIONS /users [32m204[0m 0.133 ms - 0[0m
+2023-01-30 17:24:59 info: [0mGET /users [36m304[0m 560.984 ms - -[0m
+2023-01-30 17:25:33 info: [0mOPTIONS /users [32m204[0m 0.124 ms - 0[0m
+2023-01-30 17:25:34 info: [0mGET /users [36m304[0m 833.235 ms - -[0m
+2023-01-30 17:27:37 info: [0mOPTIONS /users [32m204[0m 0.114 ms - 0[0m
+2023-01-30 17:27:38 info: [0mGET /users [36m304[0m 672.653 ms - -[0m
+2023-01-30 17:27:55 info: [0mOPTIONS /users [32m204[0m 0.094 ms - 0[0m
+2023-01-30 17:27:56 info: [0mGET /users [36m304[0m 842.655 ms - -[0m
+2023-01-30 17:28:57 info: [0mOPTIONS /users [32m204[0m 0.098 ms - 0[0m
+2023-01-30 17:28:58 info: [0mGET /users [36m304[0m 562.489 ms - -[0m
+2023-01-30 17:29:05 info: [0mOPTIONS /users [32m204[0m 0.113 ms - 0[0m
+2023-01-30 17:29:05 info: [0mGET /users [36m304[0m 570.880 ms - -[0m
+2023-01-30 17:29:19 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:29:19 info: [0mGET /users [36m304[0m 705.209 ms - -[0m
+2023-01-30 17:31:12 info: [0mOPTIONS /users [32m204[0m 0.110 ms - 0[0m
+2023-01-30 17:31:12 info: [0mGET /users [36m304[0m 530.282 ms - -[0m
+2023-01-30 17:31:45 info: [0mOPTIONS /users [32m204[0m 0.125 ms - 0[0m
+2023-01-30 17:31:46 info: [0mGET /users [36m304[0m 544.756 ms - -[0m
+2023-01-30 17:32:54 info: [0mOPTIONS /users [32m204[0m 0.887 ms - 0[0m
+2023-01-30 17:32:55 info: [0mGET /users [36m304[0m 847.615 ms - -[0m
+2023-01-30 17:33:21 info: [0mOPTIONS /users [32m204[0m 0.087 ms - 0[0m
+2023-01-30 17:33:22 info: [0mGET /users [36m304[0m 690.357 ms - -[0m
+2023-01-30 17:33:30 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.105 ms - 0[0m
+2023-01-30 17:33:30 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 198.299 ms - -[0m
+2023-01-30 17:33:30 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.086 ms - 0[0m
+2023-01-30 17:33:30 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.097 ms - 0[0m
+2023-01-30 17:33:31 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.057 ms - 0[0m
+2023-01-30 17:33:31 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 200.034 ms - -[0m
+2023-01-30 17:33:31 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 245.139 ms - -[0m
+2023-01-30 17:33:31 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 301.047 ms - -[0m
+2023-01-30 17:34:02 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:34:02 info: [0mGET /users [36m304[0m 511.276 ms - -[0m
+2023-01-30 17:34:19 info: [0mOPTIONS /users [32m204[0m 0.093 ms - 0[0m
+2023-01-30 17:34:20 info: [0mGET /users [36m304[0m 493.376 ms - -[0m
+2023-01-30 17:34:25 info: [0mOPTIONS /users [32m204[0m 0.125 ms - 0[0m
+2023-01-30 17:34:25 info: [0mGET /users [36m304[0m 521.294 ms - -[0m
+2023-01-30 17:34:41 info: [0mOPTIONS /users [32m204[0m 0.103 ms - 0[0m
+2023-01-30 17:34:42 info: [0mGET /users [36m304[0m 692.418 ms - -[0m
+2023-01-30 17:37:25 info: [0mOPTIONS /users [32m204[0m 0.114 ms - 0[0m
+2023-01-30 17:37:26 info: [0mGET /users [36m304[0m 558.491 ms - -[0m
+2023-01-30 17:38:01 info: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2023-01-30 17:38:01 info: [0mGET /users [36m304[0m 489.720 ms - -[0m
+2023-01-30 17:38:24 info: [0mOPTIONS /users [32m204[0m 0.142 ms - 0[0m
+2023-01-30 17:38:25 info: [0mGET /users [36m304[0m 531.497 ms - -[0m
+2023-01-30 17:38:59 info: [0mOPTIONS /users [32m204[0m 0.093 ms - 0[0m
+2023-01-30 17:39:00 info: [0mGET /users [36m304[0m 819.704 ms - -[0m
+2023-01-30 17:40:22 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 17:40:23 info: [0mGET /users [36m304[0m 517.727 ms - -[0m
+2023-01-30 17:41:17 info: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2023-01-30 17:41:18 info: [0mGET /users [36m304[0m 608.581 ms - -[0m
+2023-01-30 17:41:43 info: [0mOPTIONS /users [32m204[0m 0.138 ms - 0[0m
+2023-01-30 17:41:44 info: [0mGET /users [36m304[0m 843.705 ms - -[0m
+2023-01-30 17:41:54 info: [0mOPTIONS /users [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:41:54 info: [0mGET /users [36m304[0m 778.659 ms - -[0m
+2023-01-30 17:42:23 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:42:24 info: [0mGET /users [36m304[0m 564.970 ms - -[0m
+2023-01-30 17:42:43 info: [0mOPTIONS /users [32m204[0m 0.105 ms - 0[0m
+2023-01-30 17:42:44 info: [0mGET /users [36m304[0m 598.376 ms - -[0m
+2023-01-30 17:43:23 info: [0mOPTIONS /users [32m204[0m 0.101 ms - 0[0m
+2023-01-30 17:43:24 info: [0mGET /users [36m304[0m 841.564 ms - -[0m
+2023-01-30 17:43:28 info: [0mGET /users [36m304[0m 767.932 ms - -[0m
+2023-01-30 17:44:12 info: [0mOPTIONS /users [32m204[0m 0.089 ms - 0[0m
+2023-01-30 17:44:12 info: [0mGET /users [36m304[0m 550.375 ms - -[0m
+2023-01-30 17:44:39 info: [0mOPTIONS /users [32m204[0m 0.118 ms - 0[0m
+2023-01-30 17:44:40 info: [0mGET /users [36m304[0m 535.350 ms - -[0m
+2023-01-30 17:44:45 info: [0mOPTIONS /users [32m204[0m 0.135 ms - 0[0m
+2023-01-30 17:44:45 info: [0mGET /users [36m304[0m 529.936 ms - -[0m
+2023-01-30 17:45:02 info: [0mOPTIONS /users [32m204[0m 0.117 ms - 0[0m
+2023-01-30 17:45:03 info: [0mGET /users [36m304[0m 514.545 ms - -[0m
+2023-01-30 17:45:25 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:45:26 info: [0mGET /users [36m304[0m 596.859 ms - -[0m
+2023-01-30 17:46:33 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.121 ms - 0[0m
+2023-01-30 17:46:33 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 214.966 ms - -[0m
+2023-01-30 17:46:33 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.102 ms - 0[0m
+2023-01-30 17:46:33 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.064 ms - 0[0m
+2023-01-30 17:46:33 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:46:34 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 203.789 ms - -[0m
+2023-01-30 17:46:34 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 255.433 ms - -[0m
+2023-01-30 17:46:34 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 205.216 ms - -[0m
+2023-01-30 17:46:38 info: [0mOPTIONS /users/cst_oPjNFW3Vwq [32m204[0m 0.093 ms - 0[0m
+2023-01-30 17:46:38 info: [0mGET /users/cst_oPjNFW3Vwq [36m304[0m 211.563 ms - -[0m
+2023-01-30 17:46:38 info: [0mOPTIONS /users/payments/cst_oPjNFW3Vwq [32m204[0m 0.083 ms - 0[0m
+2023-01-30 17:46:38 info: [0mOPTIONS /users/mandates/cst_oPjNFW3Vwq [32m204[0m 0.089 ms - 0[0m
+2023-01-30 17:46:38 info: [0mOPTIONS /users/subscriptions/cst_oPjNFW3Vwq [32m204[0m 0.057 ms - 0[0m
+2023-01-30 17:46:38 info: [0mGET /users/payments/cst_oPjNFW3Vwq [36m304[0m 226.474 ms - -[0m
+2023-01-30 17:46:38 info: [0mGET /users/subscriptions/cst_oPjNFW3Vwq [36m304[0m 192.446 ms - -[0m
+2023-01-30 17:46:38 info: [0mGET /users/mandates/cst_oPjNFW3Vwq [36m304[0m 231.799 ms - -[0m
+2023-01-30 17:46:44 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.085 ms - 0[0m
+2023-01-30 17:46:45 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 262.640 ms - -[0m
+2023-01-30 17:46:45 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.091 ms - 0[0m
+2023-01-30 17:46:45 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.061 ms - 0[0m
+2023-01-30 17:46:45 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.061 ms - 0[0m
+2023-01-30 17:46:45 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 236.548 ms - -[0m
+2023-01-30 17:46:45 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 249.545 ms - -[0m
+2023-01-30 17:46:45 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 253.235 ms - -[0m
+2023-01-30 17:46:59 info: [0mOPTIONS /users [32m204[0m 0.089 ms - 0[0m
+2023-01-30 17:47:00 info: [0mGET /users [36m304[0m 848.610 ms - -[0m
+2023-01-30 17:56:31 info: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2023-01-30 17:56:32 info: [0mGET /users [36m304[0m 691.962 ms - -[0m
+2023-01-30 17:57:07 info: [0mOPTIONS /users [32m204[0m 0.105 ms - 0[0m
+2023-01-30 17:57:07 info: [0mGET /users [36m304[0m 537.024 ms - -[0m
+2023-01-30 17:57:13 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 17:57:13 info: [0mGET /users [36m304[0m 537.291 ms - -[0m
+2023-01-30 17:58:18 info: [0mOPTIONS /users [32m204[0m 0.106 ms - 0[0m
+2023-01-30 17:58:18 info: [0mGET /users [36m304[0m 631.309 ms - -[0m
+2023-01-30 17:58:23 info: [0mOPTIONS /users [32m204[0m 0.102 ms - 0[0m
+2023-01-30 17:58:24 info: [0mGET /users [36m304[0m 787.549 ms - -[0m
+2023-01-30 17:59:44 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 17:59:45 info: [0mGET /users [36m304[0m 748.816 ms - -[0m
+2023-01-30 18:00:06 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 18:00:07 info: [0mGET /users [36m304[0m 739.459 ms - -[0m
+2023-01-30 18:00:45 info: [0mOPTIONS /users [32m204[0m 0.093 ms - 0[0m
+2023-01-30 18:00:46 info: [0mGET /users [36m304[0m 591.211 ms - -[0m
+2023-01-30 18:01:21 info: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2023-01-30 18:01:22 info: [0mGET /users [36m304[0m 647.725 ms - -[0m
+2023-01-30 18:01:54 info: [0mOPTIONS /users [32m204[0m 0.099 ms - 0[0m
+2023-01-30 18:01:55 info: [0mGET /users [36m304[0m 866.266 ms - -[0m
+2023-01-30 18:02:17 info: [0mOPTIONS /users [32m204[0m 0.089 ms - 0[0m
+2023-01-30 18:02:18 info: [0mGET /users [36m304[0m 520.231 ms - -[0m
+2023-01-30 18:02:20 info: [0mGET /users [36m304[0m 495.569 ms - -[0m
+2023-01-30 18:11:16 info: [0mOPTIONS /users [32m204[0m 0.098 ms - 0[0m
+2023-01-30 18:11:18 info: [0mGET /users [36m304[0m 1685.494 ms - -[0m
+2023-01-30 18:11:21 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.096 ms - 0[0m
+2023-01-30 18:11:22 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 367.608 ms - -[0m
+2023-01-30 18:11:22 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.086 ms - 0[0m
+2023-01-30 18:11:22 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.064 ms - 0[0m
+2023-01-30 18:11:22 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.089 ms - 0[0m
+2023-01-30 18:11:22 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 392.790 ms - -[0m
+2023-01-30 18:11:22 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 343.223 ms - -[0m
+2023-01-30 18:11:22 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 403.925 ms - -[0m
+2023-01-30 18:11:38 info: [0mOPTIONS /users [32m204[0m 0.109 ms - 0[0m
+2023-01-30 18:11:39 info: [0mGET /users [36m304[0m 1048.668 ms - -[0m
+2023-01-30 18:11:57 info: [0mOPTIONS /users [32m204[0m 0.117 ms - 0[0m
+2023-01-30 18:11:57 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 18:11:57 info: [0mPOST /users [31m500[0m 196.592 ms - 63[0m
+2023-01-30 18:16:07 info: [0mOPTIONS /users [32m204[0m 0.108 ms - 0[0m
+2023-01-30 18:16:07 info: [0mGET /users [36m304[0m 475.397 ms - -[0m
+2023-01-30 18:20:15 info: [0mOPTIONS /users [32m204[0m 0.117 ms - 0[0m
+2023-01-30 18:20:16 info: [0mGET /users [36m304[0m 484.553 ms - -[0m
+2023-01-30 18:20:23 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.092 ms - 0[0m
+2023-01-30 18:20:23 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 221.502 ms - -[0m
+2023-01-30 18:20:23 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.110 ms - 0[0m
+2023-01-30 18:20:23 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.118 ms - 0[0m
+2023-01-30 18:20:23 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.104 ms - 0[0m
+2023-01-30 18:20:24 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 229.802 ms - -[0m
+2023-01-30 18:20:24 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 205.712 ms - -[0m
+2023-01-30 18:20:24 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 253.460 ms - -[0m
+2023-01-30 18:20:30 info: [0mOPTIONS /users/cst_Uidd2NjBet [32m204[0m 0.086 ms - 0[0m
+2023-01-30 18:20:30 info: [0mGET /users/cst_Uidd2NjBet [36m304[0m 223.907 ms - -[0m
+2023-01-30 18:20:30 info: [0mOPTIONS /users/payments/cst_Uidd2NjBet [32m204[0m 0.087 ms - 0[0m
+2023-01-30 18:20:30 info: [0mOPTIONS /users/subscriptions/cst_Uidd2NjBet [32m204[0m 0.115 ms - 0[0m
+2023-01-30 18:20:30 info: [0mOPTIONS /users/mandates/cst_Uidd2NjBet [32m204[0m 0.086 ms - 0[0m
+2023-01-30 18:20:30 info: [0mGET /users/payments/cst_Uidd2NjBet [36m304[0m 218.725 ms - -[0m
+2023-01-30 18:20:30 info: [0mGET /users/subscriptions/cst_Uidd2NjBet [36m304[0m 198.615 ms - -[0m
+2023-01-30 18:20:30 info: [0mGET /users/mandates/cst_Uidd2NjBet [36m304[0m 195.809 ms - -[0m
+2023-01-30 18:25:20 info: [0mOPTIONS /users [32m204[0m 0.139 ms - 0[0m
+2023-01-30 18:25:20 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 18:25:20 info: [0mPOST /users [31m500[0m 195.088 ms - 63[0m
+2023-01-30 18:27:07 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 18:27:07 info: [0mPOST /users [31m500[0m 320.269 ms - 63[0m
+2023-01-30 18:30:58 info: [0mOPTIONS /users [32m204[0m 0.150 ms - 0[0m
+2023-01-30 18:30:59 info: [0mGET /users [32m200[0m 852.525 ms - -[0m
+2023-01-30 18:31:05 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 18:31:05 info: [0mGET /users [36m304[0m 620.069 ms - -[0m
+2023-01-30 18:33:08 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 18:33:08 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 210.516 ms - -[0m
+2023-01-30 18:33:08 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.079 ms - 0[0m
+2023-01-30 18:33:08 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.082 ms - 0[0m
+2023-01-30 18:33:08 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.093 ms - 0[0m
+2023-01-30 18:33:08 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 243.480 ms - -[0m
+2023-01-30 18:33:08 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 245.852 ms - -[0m
+2023-01-30 18:33:08 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 237.495 ms - -[0m
+2023-01-30 18:33:11 info: [0mOPTIONS /users/cst_tEV4MaFYZ2 [32m204[0m 0.096 ms - 0[0m
+2023-01-30 18:33:11 info: [0mGET /users/cst_tEV4MaFYZ2 [32m200[0m 227.183 ms - 562[0m
+2023-01-30 18:33:11 info: [0mOPTIONS /users/payments/cst_tEV4MaFYZ2 [32m204[0m 0.075 ms - 0[0m
+2023-01-30 18:33:11 info: [0mOPTIONS /users/mandates/cst_tEV4MaFYZ2 [32m204[0m 0.067 ms - 0[0m
+2023-01-30 18:33:11 info: [0mOPTIONS /users/subscriptions/cst_tEV4MaFYZ2 [32m204[0m 0.092 ms - 0[0m
+2023-01-30 18:33:12 info: [0mGET /users/mandates/cst_tEV4MaFYZ2 [32m200[0m 249.253 ms - 40[0m
+2023-01-30 18:33:12 info: [0mGET /users/subscriptions/cst_tEV4MaFYZ2 [32m200[0m 208.795 ms - 49[0m
+2023-01-30 18:33:12 info: [0mGET /users/payments/cst_tEV4MaFYZ2 [32m200[0m 249.489 ms - 40[0m
+2023-01-30 18:35:58 info: [0mOPTIONS /users [32m204[0m 0.099 ms - 0[0m
+2023-01-30 18:35:59 info: [0mGET /users [36m304[0m 644.216 ms - -[0m
+2023-01-30 18:36:03 info: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2023-01-30 18:36:04 info: [0mGET /users [36m304[0m 898.495 ms - -[0m
+2023-01-30 18:36:37 info: [0mOPTIONS /users/cst_gU63RbSfFM [32m204[0m 0.087 ms - 0[0m
+2023-01-30 18:36:37 info: [0mGET /users/cst_gU63RbSfFM [36m304[0m 202.691 ms - -[0m
+2023-01-30 18:36:37 info: [0mOPTIONS /users/payments/cst_gU63RbSfFM [32m204[0m 0.107 ms - 0[0m
+2023-01-30 18:36:37 info: [0mOPTIONS /users/mandates/cst_gU63RbSfFM [32m204[0m 0.065 ms - 0[0m
+2023-01-30 18:36:37 info: [0mOPTIONS /users/subscriptions/cst_gU63RbSfFM [32m204[0m 0.731 ms - 0[0m
+2023-01-30 18:36:37 info: [0mGET /users/mandates/cst_gU63RbSfFM [36m304[0m 224.688 ms - -[0m
+2023-01-30 18:36:37 info: [0mGET /users/subscriptions/cst_gU63RbSfFM [36m304[0m 204.304 ms - -[0m
+2023-01-30 18:36:37 info: [0mGET /users/payments/cst_gU63RbSfFM [36m304[0m 308.054 ms - -[0m
+2023-01-30 18:37:10 info: [0mOPTIONS /users [32m204[0m 0.088 ms - 0[0m
+2023-01-30 18:37:11 info: [0mGET /users [36m304[0m 862.858 ms - -[0m
+2023-01-30 18:39:50 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-01-30 18:39:51 info: [0mGET /users [36m304[0m 518.962 ms - -[0m
+2023-01-30 18:39:58 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 18:39:58 info: [0mGET /users [36m304[0m 653.086 ms - -[0m
+2023-01-30 18:40:27 info: [0mOPTIONS /users [32m204[0m 0.095 ms - 0[0m
+2023-01-30 18:40:28 info: [0mGET /users [36m304[0m 785.432 ms - -[0m
+2023-01-30 18:48:01 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-01-30 18:48:01 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 18:48:01 info: [0mPOST /users [31m500[0m 243.718 ms - 63[0m
+2023-01-30 18:48:25 error: [POST] /users >> StatusCode:: 500, Message:: Missing authentication, or failed to authenticate
+2023-01-30 18:48:25 info: [0mPOST /users [31m500[0m 194.071 ms - 63[0m
+2023-01-30 18:49:46 info: =================================
+2023-01-30 18:49:46 info: ======= ENV: development =======
+2023-01-30 18:49:46 info: 🚀 App listening on the port 3000
+2023-01-30 18:49:46 info: =================================
+2023-01-30 18:49:57 info: [0mPOST /users [32m201[0m 475.030 ms - 612[0m
+2023-01-30 18:50:09 info: [0mOPTIONS /users [32m204[0m 0.434 ms - 0[0m
+2023-01-30 18:50:09 info: [0mPOST /users [32m201[0m 264.036 ms - 521[0m
+2023-01-30 18:50:32 info: [0mOPTIONS /users [32m204[0m 0.164 ms - 0[0m
+2023-01-30 18:50:32 info: [0mPOST /users [32m201[0m 322.096 ms - 521[0m
+2023-01-30 18:57:01 info: =================================
+2023-01-30 18:57:01 info: ======= ENV: development =======
+2023-01-30 18:57:01 info: 🚀 App listening on the port 3000
+2023-01-30 18:57:01 info: =================================
+2023-01-30 18:58:09 info: =================================
+2023-01-30 18:58:09 info: ======= ENV: development =======
+2023-01-30 18:58:09 info: 🚀 App listening on the port 3000
+2023-01-30 18:58:09 info: =================================
+2023-01-30 18:58:12 info: =================================
+2023-01-30 18:58:12 info: ======= ENV: development =======
+2023-01-30 18:58:12 info: 🚀 App listening on the port 3000
+2023-01-30 18:58:12 info: =================================
+2023-01-30 18:58:16 info: [0mOPTIONS /users [32m204[0m 1.168 ms - 0[0m
+2023-01-30 18:58:17 info: [0mPOST /users [32m201[0m 293.052 ms - 57[0m
+2023-01-30 18:58:35 info: [0mOPTIONS /users [32m204[0m 0.125 ms - 0[0m
+2023-01-30 18:58:35 info: [0mPOST /users [32m201[0m 215.470 ms - 57[0m
+2023-01-30 18:58:45 info: [0mOPTIONS /users [32m204[0m 0.102 ms - 0[0m
+2023-01-30 18:58:45 info: [0mPOST /users [32m201[0m 217.135 ms - 57[0m
+2023-01-30 18:59:01 info: =================================
+2023-01-30 18:59:01 info: ======= ENV: development =======
+2023-01-30 18:59:01 info: 🚀 App listening on the port 3000
+2023-01-30 18:59:01 info: =================================
+2023-01-30 18:59:06 info: [0mOPTIONS /users [32m204[0m 1.097 ms - 0[0m
+2023-01-30 18:59:07 info: [0mPOST /users [32m201[0m 471.259 ms - 521[0m
+2023-01-30 18:59:15 info: [0mOPTIONS /users [32m204[0m 0.131 ms - 0[0m
+2023-01-30 18:59:15 info: [0mPOST /users [32m201[0m 515.777 ms - 521[0m
+2023-01-30 18:59:48 info: =================================
+2023-01-30 18:59:48 info: ======= ENV: development =======
+2023-01-30 18:59:48 info: 🚀 App listening on the port 3000
+2023-01-30 18:59:48 info: =================================
+2023-01-30 18:59:51 info: [0mOPTIONS /users [32m204[0m 1.136 ms - 0[0m
+2023-01-30 18:59:51 info: [0mPOST /users [32m201[0m 492.661 ms - 521[0m
+2023-01-30 19:00:43 info: =================================
+2023-01-30 19:00:43 info: ======= ENV: development =======
+2023-01-30 19:00:43 info: 🚀 App listening on the port 3000
+2023-01-30 19:00:43 info: =================================
+2023-01-30 19:00:51 info: [0mOPTIONS /users [32m204[0m 1.097 ms - 0[0m
+2023-01-30 19:00:51 info: [0mPOST /users [32m201[0m 566.917 ms - 521[0m
+2023-01-30 19:01:21 info: =================================
+2023-01-30 19:01:21 info: ======= ENV: development =======
+2023-01-30 19:01:21 info: 🚀 App listening on the port 3000
+2023-01-30 19:01:21 info: =================================
+2023-01-30 19:01:22 info: [0mOPTIONS /users [32m204[0m 1.143 ms - 0[0m
+2023-01-30 19:01:23 info: [0mPOST /users [32m201[0m 900.198 ms - 521[0m
+2023-01-30 19:01:42 info: =================================
+2023-01-30 19:01:42 info: ======= ENV: development =======
+2023-01-30 19:01:42 info: 🚀 App listening on the port 3000
+2023-01-30 19:01:42 info: =================================
+2023-01-30 19:01:44 info: [0mOPTIONS /users [32m204[0m 1.105 ms - 0[0m
+2023-01-30 19:01:45 info: [0mPOST /users [32m201[0m 597.811 ms - 635[0m
+2023-01-30 19:01:59 info: [0mOPTIONS /users [32m204[0m 0.124 ms - 0[0m
+2023-01-30 19:02:00 info: [0mPOST /users [32m201[0m 534.544 ms - 635[0m
+2023-01-30 19:02:47 info: =================================
+2023-01-30 19:02:47 info: ======= ENV: development =======
+2023-01-30 19:02:47 info: 🚀 App listening on the port 3000
+2023-01-30 19:02:47 info: =================================
+2023-01-30 19:02:49 info: [0mOPTIONS /users [32m204[0m 1.092 ms - 0[0m
+2023-01-30 19:02:49 info: [0mPOST /users [32m201[0m 269.119 ms - 58[0m
+2023-01-30 19:02:58 info: [0mOPTIONS /users [32m204[0m 0.124 ms - 0[0m
+2023-01-30 19:02:58 info: [0mPOST /users [32m201[0m 218.027 ms - 58[0m
+2023-01-30 19:03:15 info: =================================
+2023-01-30 19:03:15 info: ======= ENV: development =======
+2023-01-30 19:03:15 info: 🚀 App listening on the port 3000
+2023-01-30 19:03:15 info: =================================
+2023-01-30 19:03:17 info: [0mOPTIONS /users [32m204[0m 1.464 ms - 0[0m
+2023-01-30 19:03:18 info: [0mPOST /users [32m201[0m 469.574 ms - 641[0m
+2023-01-30 19:03:37 info: =================================
+2023-01-30 19:03:37 info: ======= ENV: development =======
+2023-01-30 19:03:37 info: 🚀 App listening on the port 3000
+2023-01-30 19:03:37 info: =================================
+2023-01-30 19:03:40 info: [0mOPTIONS /users [32m204[0m 1.104 ms - 0[0m
+2023-01-30 19:03:41 info: [0mPOST /users [32m201[0m 597.081 ms - 641[0m
+2023-01-30 19:04:11 info: =================================
+2023-01-30 19:04:11 info: ======= ENV: development =======
+2023-01-30 19:04:11 info: 🚀 App listening on the port 3000
+2023-01-30 19:04:11 info: =================================
+2023-01-30 19:04:16 info: =================================
+2023-01-30 19:04:16 info: ======= ENV: development =======
+2023-01-30 19:04:16 info: 🚀 App listening on the port 3000
+2023-01-30 19:04:16 info: =================================
+2023-01-30 19:04:17 info: [0mOPTIONS /users [32m204[0m 1.129 ms - 0[0m
+2023-01-30 19:04:17 info: [0mPOST /users [32m201[0m 577.601 ms - 641[0m
+2023-01-30 19:04:31 info: =================================
+2023-01-30 19:04:31 info: ======= ENV: development =======
+2023-01-30 19:04:31 info: 🚀 App listening on the port 3000
+2023-01-30 19:04:31 info: =================================
+2023-01-30 19:05:07 info: =================================
+2023-01-30 19:05:07 info: ======= ENV: development =======
+2023-01-30 19:05:07 info: 🚀 App listening on the port 3000
+2023-01-30 19:05:07 info: =================================
+2023-01-30 19:05:11 info: [0mOPTIONS /users [32m204[0m 1.140 ms - 0[0m
+2023-01-30 19:05:12 info: [0mPOST /users [32m201[0m 280.982 ms - 57[0m
+2023-01-30 19:05:20 info: [0mOPTIONS /users [32m204[0m 0.130 ms - 0[0m
+2023-01-30 19:05:21 info: [0mPOST /users [32m201[0m 436.457 ms - 646[0m
+2023-01-30 19:05:30 info: [0mOPTIONS /users [32m204[0m 0.100 ms - 0[0m
+2023-01-30 19:05:30 info: [0mPOST /users [32m201[0m 219.542 ms - 57[0m
+2023-01-30 19:07:40 info: =================================
+2023-01-30 19:07:40 info: ======= ENV: development =======
+2023-01-30 19:07:40 info: 🚀 App listening on the port 3000
+2023-01-30 19:07:40 info: =================================
+2023-01-30 19:08:05 info: [0mOPTIONS /users [32m204[0m 1.271 ms - 0[0m
+2023-01-30 19:08:06 info: [0mPOST /users [32m201[0m 253.583 ms - 69[0m
+2023-01-30 19:09:04 info: =================================
+2023-01-30 19:09:04 info: ======= ENV: development =======
+2023-01-30 19:09:04 info: 🚀 App listening on the port 3000
+2023-01-30 19:09:04 info: =================================
+2023-01-30 19:09:25 info: [0mOPTIONS /users [32m204[0m 1.159 ms - 0[0m
+2023-01-30 19:09:25 info: [0mPOST /users [32m201[0m 251.121 ms - 49[0m
+2023-01-30 19:13:10 info: [0mOPTIONS /users [32m204[0m 0.111 ms - 0[0m
+2023-01-30 19:13:10 info: [0mPOST /users [32m201[0m 250.610 ms - 49[0m
+2023-01-30 19:14:03 info: [0mOPTIONS /users [32m204[0m 0.247 ms - 0[0m
+2023-01-30 19:14:04 info: [0mPOST /users [32m201[0m 566.479 ms - 623[0m
+2023-01-30 19:14:27 info: [0mOPTIONS /users [32m204[0m 0.379 ms - 0[0m
+2023-01-30 19:14:27 info: [0mPOST /users [32m201[0m 217.942 ms - 49[0m
+2023-01-30 19:15:33 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-01-30 19:15:33 info: [0mPOST /users [32m201[0m 297.834 ms - 49[0m
+2023-01-30 19:15:36 info: [0mPOST /users [32m201[0m 214.975 ms - 49[0m
+2023-01-30 19:15:55 info: [0mOPTIONS /users [32m204[0m 0.197 ms - 0[0m
+2023-01-30 19:15:55 info: [0mPOST /users [32m201[0m 214.577 ms - 49[0m
+2023-01-30 19:16:00 info: [0mOPTIONS /users [32m204[0m 0.119 ms - 0[0m
+2023-01-30 19:16:01 info: [0mPOST /users [32m201[0m 635.868 ms - 627[0m
+2023-01-30 19:18:19 info: [0mOPTIONS /users [32m204[0m 0.118 ms - 0[0m
+2023-01-30 19:18:20 info: [0mGET /users [32m200[0m 483.392 ms - -[0m
+2023-01-30 19:18:21 info: [0mGET /users [36m304[0m 490.335 ms - -[0m
+2023-01-30 19:18:24 info: [0mGET /users [36m304[0m 543.830 ms - -[0m

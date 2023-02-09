@@ -1,0 +1,26 @@
+[33mcommit 52ed5ef791880c1800033a720101eb39c304967c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mheroku/master[m[33m)[m
+Author: unknown <mouaddigoug12@gmail.com>
+Date:   Wed Feb 8 12:42:33 2023 +0100
+
+    make it better
+
+[1mdiff --git a/Profile b/Profile[m
+[1mnew file mode 100644[m
+[1mindex 00000000..207d22f8[m
+[1m--- /dev/null[m
+[1m+++ b/Profile[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mweb: node app.js[m
+\ No newline at end of file[m
+[1mdiff --git a/src/logs/debug/2023-02-08.log b/src/logs/debug/2023-02-08.log[m
+[1mindex 667b7ffa..edca4139 100644[m
+[1m--- a/src/logs/debug/2023-02-08.log[m
+[1m+++ b/src/logs/debug/2023-02-08.log[m
+[36m@@ -962,3 +962,7 @@[m
+ 2023-02-08 11:49:56 info: [0mGET /users/subscriptions/cst_sJ648mn7F2 [36m304[0m 215.488 ms - -[0m[m
+ 2023-02-08 11:49:56 info: [0mGET /users/payments/cst_sJ648mn7F2 [36m304[0m 273.616 ms - -[0m[m
+ 2023-02-08 11:49:56 info: [0mGET /users/mandates/cst_sJ648mn7F2 [36m304[0m 259.043 ms - -[0m[m
+[32m+[m[32m2023-02-08 12:33:04 info: =================================[m
+[32m+[m[32m2023-02-08 12:33:04 info: ======= ENV: development =======[m
+[32m+[m[32m2023-02-08 12:33:04 info: 🚀 App listening on the port 3000[m
+[32m+[m[32m2023-02-08 12:33:04 info: =================================[m

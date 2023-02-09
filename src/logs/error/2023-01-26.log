@@ -1,0 +1,55 @@
+2023-01-26 11:16:03 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:16:45 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:16:57 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:22:29 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:22:58 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:28:43 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:29:13 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:29:32 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:30:17 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:30:31 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 11:30:58 error: [GET] /users/mandates/ >> StatusCode:: 500, Message:: The customer id is invalid
+2023-01-26 18:14:26 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m50[0m:[93m128[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m50[0m       const subscription = await this.userService.createSubscription(mandateId, userId, currency, value, interval, description));
+[7m  [0m [91m                                                                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m50[0m:[93m128[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m50[0m       const subscription = await this.userService.createSubscription(mandateId, userId, currency, value, interval, description));
+[7m  [0m [91m                                                                                                                               ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-01-26 18:14:35 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m50[0m:[93m128[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m50[0m       const subscription = await this.userService.createSubscription(mandateId, userId, currency, value, interval, description));
+[7m  [0m [91m                                                                                                                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/controllers/users.controller.ts[0m:[93m50[0m:[93m128[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m50[0m       const subscription = await this.userService.createSubscription(mandateId, userId, currency, value, interval, description));
+[7m  [0m [91m                                                                                                                               ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)

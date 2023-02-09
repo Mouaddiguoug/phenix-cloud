@@ -1,0 +1,46 @@
+2023-02-01 12:46:35 error: [PUT] /users/cst_m2fS2qh5X4 >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'customer')
+2023-02-01 12:47:19 error: [PUT] /users/cst_m2fS2qh5X4 >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'city')
+2023-02-01 12:48:49 error: [PUT] /users/cst_m2fS2qh5X4 >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'city')
+2023-02-01 12:49:19 error: [PUT] /users/cst_m2fS2qh5X4 >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'city')
+2023-02-01 12:49:37 error: [PUT] /users/cst_o2YpGd9RCr >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'city')
+2023-02-01 12:50:10 error: [PUT] /users/cst_rUXqsfQVXq >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'city')
+2023-02-01 13:09:19 error: [PUT] /users/cst_n2p4AXnLWQ >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'includes')
+2023-02-01 13:10:22 error: uncaughtException: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m142[0m:[93m32[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m142[0m     if(userData.city.length == )
+[7m   [0m [91m                               ~[0m
+
+TSError: ⨯ Unable to compile TypeScript:
+[96msrc/services/users.service.ts[0m:[93m142[0m:[93m32[0m - [91merror[0m[90m TS1109: [0mExpression expected.
+
+[7m142[0m     if(userData.city.length == )
+[7m   [0m [91m                               ~[0m
+
+    at createTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:863:19)
+    at C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1379:34
+    at Object.compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1458:13)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1617:30)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Module.require (node:internal/modules/cjs/loader:1061:19)
+2023-02-01 13:10:28 error: [PUT] /users/cst_n2p4AXnLWQ >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'length')
+2023-02-01 13:10:33 error: [PUT] /users/cst_n2p4AXnLWQ >> StatusCode:: 500, Message:: Cannot read properties of undefined (reading 'length')
+2023-02-01 14:26:50 error: [GET] /users/cst_R6nESBx5QY >> StatusCode:: 500, Message:: The customer is no longer available
+2023-02-01 14:39:43 error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\route.js:211:15)
+    at Function.proto.<computed> [as delete] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\express\lib\router\index.js:521:19)
+    at UsersRoute.initializeRoutes (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:25:23)
+    at new UsersRoute (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\routes\users.route.ts:13:10)
+    at Object.<anonymous> (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\src\server.ts:9:40)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module.m._compile (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Devops3\Downloads\typescript-express-starter-master\typescript-express-starter-master\lib\default\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+2023-02-01 15:56:59 error: [GET] /users/cst_DvFT4eCzva >> StatusCode:: 500, Message:: The customer is no longer available
+2023-02-01 18:17:07 error: [GET] /users/payment/ >> StatusCode:: 500, Message:: The customer id is invalid
