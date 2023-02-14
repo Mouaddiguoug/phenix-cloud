@@ -1,0 +1,468 @@
+2023-02-13 12:21:40 info: =================================
+2023-02-13 12:21:40 info: ======= ENV: development =======
+2023-02-13 12:21:40 info: 🚀 App listening on the port 3000
+2023-02-13 12:21:40 info: =================================
+2023-02-13 12:22:58 info: [0mGET /profile [33m404[0m 4.437 ms - 146[0m
+2023-02-13 12:26:48 info: =================================
+2023-02-13 12:26:48 info: ======= ENV: development =======
+2023-02-13 12:26:48 info: 🚀 App listening on the port 3000
+2023-02-13 12:26:48 info: =================================
+2023-02-13 12:28:47 info: =================================
+2023-02-13 12:28:47 info: ======= ENV: development =======
+2023-02-13 12:28:47 info: 🚀 App listening on the port 3000
+2023-02-13 12:28:47 info: =================================
+2023-02-13 12:32:10 info: =================================
+2023-02-13 12:32:10 info: ======= ENV: development =======
+2023-02-13 12:32:10 info: 🚀 App listening on the port 3000
+2023-02-13 12:32:10 info: =================================
+2023-02-13 12:33:54 info: =================================
+2023-02-13 12:33:54 info: ======= ENV: development =======
+2023-02-13 12:33:54 info: 🚀 App listening on the port 3000
+2023-02-13 12:33:54 info: =================================
+2023-02-13 12:34:27 info: =================================
+2023-02-13 12:34:27 info: ======= ENV: development =======
+2023-02-13 12:34:27 info: 🚀 App listening on the port 3000
+2023-02-13 12:34:27 info: =================================
+2023-02-13 12:36:00 info: =================================
+2023-02-13 12:36:00 info: ======= ENV: development =======
+2023-02-13 12:36:00 info: 🚀 App listening on the port 3000
+2023-02-13 12:36:00 info: =================================
+2023-02-13 12:36:19 info: =================================
+2023-02-13 12:36:19 info: ======= ENV: development =======
+2023-02-13 12:36:19 info: 🚀 App listening on the port 3000
+2023-02-13 12:36:19 info: =================================
+2023-02-13 12:37:19 info: =================================
+2023-02-13 12:37:19 info: ======= ENV: development =======
+2023-02-13 12:37:19 info: 🚀 App listening on the port 3000
+2023-02-13 12:37:19 info: =================================
+2023-02-13 12:37:33 info: =================================
+2023-02-13 12:37:33 info: ======= ENV: development =======
+2023-02-13 12:37:33 info: 🚀 App listening on the port 3000
+2023-02-13 12:37:33 info: =================================
+2023-02-13 12:50:03 info: =================================
+2023-02-13 12:50:03 info: ======= ENV: development =======
+2023-02-13 12:50:03 info: 🚀 App listening on the port 3000
+2023-02-13 12:50:03 info: =================================
+2023-02-13 12:50:10 info: =================================
+2023-02-13 12:50:10 info: ======= ENV: development =======
+2023-02-13 12:50:10 info: 🚀 App listening on the port 3000
+2023-02-13 12:50:10 info: =================================
+2023-02-13 12:52:13 info: [0mGET /amin/dfgfdg [33m404[0m 5.381 ms - 150[0m
+2023-02-13 12:52:20 info: [0mGET /admin/dfgfdg [33m404[0m 1.256 ms - 151[0m
+2023-02-13 12:54:17 info: =================================
+2023-02-13 12:54:17 info: ======= ENV: development =======
+2023-02-13 12:54:17 info: 🚀 App listening on the port 3000
+2023-02-13 12:54:17 info: =================================
+2023-02-13 12:55:04 info: [0mPUT /admin/dfgdf [33m404[0m 93.650 ms - 150[0m
+2023-02-13 12:55:48 info: =================================
+2023-02-13 12:55:48 info: ======= ENV: development =======
+2023-02-13 12:55:48 info: 🚀 App listening on the port 3000
+2023-02-13 12:55:48 info: =================================
+2023-02-13 12:55:50 info: [0mPUT /admin/dfgdf [33m404[0m 13.053 ms - 150[0m
+2023-02-13 12:56:24 info: =================================
+2023-02-13 12:56:24 info: ======= ENV: development =======
+2023-02-13 12:56:24 info: 🚀 App listening on the port 3000
+2023-02-13 12:56:24 info: =================================
+2023-02-13 12:56:25 info: [0mPUT /admin/dfgdf [33m404[0m 12.936 ms - 150[0m
+2023-02-13 12:57:20 info: =================================
+2023-02-13 12:57:20 info: ======= ENV: development =======
+2023-02-13 12:57:20 info: 🚀 App listening on the port 3000
+2023-02-13 12:57:20 info: =================================
+2023-02-13 12:57:22 error: [PUT] /admin/dfgdf >> StatusCode:: 500, Message:: this.userService.updateAdmin is not a function
+2023-02-13 12:57:22 info: [0mPUT /admin/dfgdf [31m500[0m 14.521 ms - 60[0m
+2023-02-13 12:57:58 info: =================================
+2023-02-13 12:57:58 info: ======= ENV: development =======
+2023-02-13 12:57:58 info: 🚀 App listening on the port 3000
+2023-02-13 12:57:58 info: =================================
+2023-02-13 12:58:00 info: [0mPUT /admin/dfgdf [32m200[0m 487.236 ms - 21[0m
+2023-02-13 12:58:38 info: =================================
+2023-02-13 12:58:38 info: ======= ENV: development =======
+2023-02-13 12:58:38 info: 🚀 App listening on the port 3000
+2023-02-13 12:58:38 info: =================================
+2023-02-13 12:58:40 info: [0mPUT /admin/dfgdf [32m200[0m 379.387 ms - 21[0m
+2023-02-13 12:58:54 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 72.028 ms - 21[0m
+2023-02-13 12:59:07 info: =================================
+2023-02-13 12:59:07 info: ======= ENV: development =======
+2023-02-13 12:59:07 info: 🚀 App listening on the port 3000
+2023-02-13 12:59:07 info: =================================
+2023-02-13 12:59:11 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 385.430 ms - 21[0m
+2023-02-13 12:59:57 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 3.872 ms - 21[0m
+2023-02-13 13:00:10 info: =================================
+2023-02-13 13:00:10 info: ======= ENV: development =======
+2023-02-13 13:00:10 info: 🚀 App listening on the port 3000
+2023-02-13 13:00:10 info: =================================
+2023-02-13 13:00:11 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 19.231 ms - 21[0m
+2023-02-13 13:00:38 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 363.278 ms - 21[0m
+2023-02-13 13:01:12 info: =================================
+2023-02-13 13:01:12 info: ======= ENV: development =======
+2023-02-13 13:01:12 info: 🚀 App listening on the port 3000
+2023-02-13 13:01:12 info: =================================
+2023-02-13 13:01:15 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 358.666 ms - 21[0m
+2023-02-13 13:01:28 info: =================================
+2023-02-13 13:01:28 info: ======= ENV: development =======
+2023-02-13 13:01:28 info: 🚀 App listening on the port 3000
+2023-02-13 13:01:28 info: =================================
+2023-02-13 13:01:30 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 365.770 ms - 21[0m
+2023-02-13 13:03:07 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 66.479 ms - 21[0m
+2023-02-13 13:04:02 info: =================================
+2023-02-13 13:04:02 info: ======= ENV: development =======
+2023-02-13 13:04:02 info: 🚀 App listening on the port 3000
+2023-02-13 13:04:02 info: =================================
+2023-02-13 13:05:14 info: [0mOPTIONS /api/profile/about [32m204[0m 1.047 ms - 0[0m
+2023-02-13 13:05:14 info: [0mGET /api/profile/about [33m404[0m 4.064 ms - 156[0m
+2023-02-13 13:05:20 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.109 ms - 0[0m
+2023-02-13 13:05:20 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 387.082 ms - 21[0m
+2023-02-13 13:06:29 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 69.291 ms - 21[0m
+2023-02-13 13:06:35 info: [0mOPTIONS /users [32m204[0m 0.106 ms - 0[0m
+2023-02-13 13:06:36 info: [0mGET /users [32m200[0m 702.323 ms - -[0m
+2023-02-13 13:06:54 info: [0mOPTIONS /api/profile/about [32m204[0m 0.136 ms - 0[0m
+2023-02-13 13:06:54 info: [0mGET /api/profile/about [33m404[0m 0.763 ms - 156[0m
+2023-02-13 13:07:41 info: =================================
+2023-02-13 13:07:41 info: ======= ENV: development =======
+2023-02-13 13:07:41 info: 🚀 App listening on the port 3000
+2023-02-13 13:07:41 info: =================================
+2023-02-13 13:07:47 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 352.363 ms - 21[0m
+2023-02-13 13:08:02 info: =================================
+2023-02-13 13:08:02 info: ======= ENV: development =======
+2023-02-13 13:08:02 info: 🚀 App listening on the port 3000
+2023-02-13 13:08:02 info: =================================
+2023-02-13 13:08:19 info: =================================
+2023-02-13 13:08:19 info: ======= ENV: development =======
+2023-02-13 13:08:19 info: 🚀 App listening on the port 3000
+2023-02-13 13:08:19 info: =================================
+2023-02-13 13:08:21 info: =================================
+2023-02-13 13:08:21 info: ======= ENV: development =======
+2023-02-13 13:08:21 info: 🚀 App listening on the port 3000
+2023-02-13 13:08:21 info: =================================
+2023-02-13 13:08:22 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 355.938 ms - 38[0m
+2023-02-13 13:09:17 info: [0mOPTIONS /api/profile/about [32m204[0m 0.346 ms - 0[0m
+2023-02-13 13:09:17 info: [0mGET /api/profile/about [33m404[0m 2.579 ms - 156[0m
+2023-02-13 13:11:05 info: [0mOPTIONS /api/profile/about [32m204[0m 0.103 ms - 0[0m
+2023-02-13 13:11:05 info: [0mGET /api/profile/about [33m404[0m 0.726 ms - 156[0m
+2023-02-13 13:11:35 info: [0mOPTIONS /api/profile/about [32m204[0m 0.168 ms - 0[0m
+2023-02-13 13:11:35 info: [0mGET /api/profile/about [33m404[0m 0.621 ms - 156[0m
+2023-02-13 13:11:54 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.107 ms - 0[0m
+2023-02-13 13:11:54 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 63.208 ms - 38[0m
+2023-02-13 13:12:17 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.113 ms - 0[0m
+2023-02-13 13:12:17 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 61.655 ms - 38[0m
+2023-02-13 13:12:33 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.108 ms - 0[0m
+2023-02-13 13:12:33 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 62.864 ms - 38[0m
+2023-02-13 13:13:19 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.115 ms - 0[0m
+2023-02-13 13:13:19 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 62.298 ms - 38[0m
+2023-02-13 13:13:40 info: =================================
+2023-02-13 13:13:40 info: ======= ENV: development =======
+2023-02-13 13:13:40 info: 🚀 App listening on the port 3000
+2023-02-13 13:13:40 info: =================================
+2023-02-13 13:17:13 info: [0mOPTIONS /api/profile/about [32m204[0m 1.144 ms - 0[0m
+2023-02-13 13:17:13 info: [0mGET /api/profile/about [33m404[0m 3.681 ms - 156[0m
+2023-02-13 13:17:30 info: [0mOPTIONS /api/profile/about [32m204[0m 0.255 ms - 0[0m
+2023-02-13 13:17:30 info: [0mGET /api/profile/about [33m404[0m 1.144 ms - 156[0m
+2023-02-13 13:17:41 info: [0mOPTIONS /api/profile/about [32m204[0m 0.130 ms - 0[0m
+2023-02-13 13:17:41 info: [0mGET /api/profile/about [33m404[0m 0.509 ms - 156[0m
+2023-02-13 13:18:19 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.117 ms - 0[0m
+2023-02-13 13:18:20 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 431.096 ms - 38[0m
+2023-02-13 13:19:13 info: [0mOPTIONS /api/profile/about [32m204[0m 0.117 ms - 0[0m
+2023-02-13 13:19:13 info: [0mGET /api/profile/about [33m404[0m 0.625 ms - 156[0m
+2023-02-13 13:19:23 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.148 ms - 0[0m
+2023-02-13 13:19:23 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 60.543 ms - 38[0m
+2023-02-13 13:22:02 info: [0mOPTIONS /api/profile/about [32m204[0m 0.122 ms - 0[0m
+2023-02-13 13:22:02 info: [0mGET /api/profile/about [33m404[0m 1.281 ms - 156[0m
+2023-02-13 13:22:14 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.106 ms - 0[0m
+2023-02-13 13:22:14 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 61.223 ms - 38[0m
+2023-02-13 13:22:15 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 60.100 ms - 38[0m
+2023-02-13 13:22:37 info: [0mOPTIONS /api/profile/about [32m204[0m 0.135 ms - 0[0m
+2023-02-13 13:22:37 info: [0mGET /api/profile/about [33m404[0m 0.733 ms - 156[0m
+2023-02-13 13:22:52 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.106 ms - 0[0m
+2023-02-13 13:22:52 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 61.090 ms - 38[0m
+2023-02-13 13:23:54 info: [0mOPTIONS /api/profile/about [32m204[0m 0.123 ms - 0[0m
+2023-02-13 13:23:54 info: [0mGET /api/profile/about [33m404[0m 0.524 ms - 156[0m
+2023-02-13 13:24:22 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.117 ms - 0[0m
+2023-02-13 13:24:22 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 60.582 ms - 38[0m
+2023-02-13 13:25:18 info: [0mOPTIONS /api/profile/about [32m204[0m 0.216 ms - 0[0m
+2023-02-13 13:25:18 info: [0mGET /api/profile/about [33m404[0m 0.480 ms - 156[0m
+2023-02-13 13:26:21 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.104 ms - 0[0m
+2023-02-13 13:26:21 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 60.039 ms - 38[0m
+2023-02-13 13:27:23 info: [0mOPTIONS /api/profile/about [32m204[0m 0.112 ms - 0[0m
+2023-02-13 13:27:23 info: [0mGET /api/profile/about [33m404[0m 0.721 ms - 156[0m
+2023-02-13 13:27:33 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.097 ms - 0[0m
+2023-02-13 13:27:33 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 59.896 ms - 38[0m
+2023-02-13 13:27:42 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.180 ms - 0[0m
+2023-02-13 13:27:42 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 61.017 ms - 38[0m
+2023-02-13 13:28:20 info: [0mOPTIONS /api/profile/about [32m204[0m 0.145 ms - 0[0m
+2023-02-13 13:28:20 info: [0mGET /api/profile/about [33m404[0m 0.590 ms - 156[0m
+2023-02-13 13:28:35 info: [0mOPTIONS /api/profile/about [32m204[0m 0.142 ms - 0[0m
+2023-02-13 13:28:35 info: [0mGET /api/profile/about [33m404[0m 0.394 ms - 156[0m
+2023-02-13 13:28:52 info: [0mOPTIONS /api/profile/about [32m204[0m 0.137 ms - 0[0m
+2023-02-13 13:28:52 info: [0mGET /api/profile/about [33m404[0m 1.619 ms - 156[0m
+2023-02-13 13:29:06 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.107 ms - 0[0m
+2023-02-13 13:29:06 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 60.369 ms - 38[0m
+2023-02-13 13:29:12 info: [0mOPTIONS /api/profile/about [32m204[0m 0.133 ms - 0[0m
+2023-02-13 13:29:12 info: [0mGET /api/profile/about [33m404[0m 0.640 ms - 156[0m
+2023-02-13 13:30:12 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.098 ms - 0[0m
+2023-02-13 13:30:12 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 60.717 ms - 38[0m
+2023-02-13 13:30:30 info: [0mOPTIONS /api/profile/about [32m204[0m 0.130 ms - 0[0m
+2023-02-13 13:30:30 info: [0mGET /api/profile/about [33m404[0m 0.724 ms - 156[0m
+2023-02-13 13:30:40 info: [0mOPTIONS /api/profile/about [32m204[0m 0.127 ms - 0[0m
+2023-02-13 13:30:40 info: [0mGET /api/profile/about [33m404[0m 0.591 ms - 156[0m
+2023-02-13 13:30:49 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.099 ms - 0[0m
+2023-02-13 13:30:49 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 61.110 ms - 38[0m
+2023-02-13 13:31:27 info: [0mOPTIONS /api/profile/about [32m204[0m 0.130 ms - 0[0m
+2023-02-13 13:31:27 info: [0mGET /api/profile/about [33m404[0m 0.565 ms - 156[0m
+2023-02-13 13:31:35 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.100 ms - 0[0m
+2023-02-13 13:31:35 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 62.111 ms - 38[0m
+2023-02-13 13:31:52 info: [0mOPTIONS /api/profile/about [32m204[0m 0.104 ms - 0[0m
+2023-02-13 13:31:52 info: [0mGET /api/profile/about [33m404[0m 0.664 ms - 156[0m
+2023-02-13 13:31:57 info: [0mGET /api/profile/about [33m404[0m 1.178 ms - 156[0m
+2023-02-13 13:32:15 info: [0mOPTIONS /api/profile/about [32m204[0m 0.098 ms - 0[0m
+2023-02-13 13:32:15 info: [0mGET /api/profile/about [33m404[0m 0.535 ms - 156[0m
+2023-02-13 13:33:57 info: [0mOPTIONS /users [32m204[0m 0.111 ms - 0[0m
+2023-02-13 13:33:58 info: [0mGET /users [36m304[0m 738.111 ms - -[0m
+2023-02-13 13:34:34 info: [0mOPTIONS /users [32m204[0m 0.096 ms - 0[0m
+2023-02-13 13:34:34 info: [0mGET /users [36m304[0m 600.428 ms - -[0m
+2023-02-13 13:34:35 info: [0mOPTIONS /users/cst_ToFft4zUAd [32m204[0m 0.116 ms - 0[0m
+2023-02-13 13:34:35 info: [0mGET /users/cst_ToFft4zUAd [32m200[0m 242.082 ms - 943[0m
+2023-02-13 13:34:35 info: [0mOPTIONS /users/payments/cst_ToFft4zUAd [32m204[0m 0.147 ms - 0[0m
+2023-02-13 13:34:35 info: [0mOPTIONS /users/subscriptions/cst_ToFft4zUAd [32m204[0m 1.216 ms - 0[0m
+2023-02-13 13:34:35 info: [0mOPTIONS /users/mandates/cst_ToFft4zUAd [32m204[0m 0.171 ms - 0[0m
+2023-02-13 13:34:35 info: [0mGET /users/payments/cst_ToFft4zUAd [32m200[0m 259.077 ms - -[0m
+2023-02-13 13:34:35 info: [0mGET /users/mandates/cst_ToFft4zUAd [32m200[0m 557.016 ms - 619[0m
+2023-02-13 13:34:35 info: [0mGET /users/subscriptions/cst_ToFft4zUAd [32m200[0m 559.362 ms - 49[0m
+2023-02-13 13:34:38 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.116 ms - 0[0m
+2023-02-13 13:34:38 info: [0mGET /users/cst_qw9PVFXG9e [32m200[0m 238.483 ms - 837[0m
+2023-02-13 13:34:39 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.172 ms - 0[0m
+2023-02-13 13:34:39 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.150 ms - 0[0m
+2023-02-13 13:34:39 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.081 ms - 0[0m
+2023-02-13 13:34:39 info: [0mGET /users/mandates/cst_qw9PVFXG9e [32m200[0m 421.391 ms - 623[0m
+2023-02-13 13:34:39 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [32m200[0m 426.552 ms - 49[0m
+2023-02-13 13:34:39 info: [0mGET /users/payments/cst_qw9PVFXG9e [32m200[0m 443.748 ms - 40[0m
+2023-02-13 13:34:41 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 261.079 ms - -[0m
+2023-02-13 13:34:42 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 261.074 ms - -[0m
+2023-02-13 13:34:42 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 269.202 ms - -[0m
+2023-02-13 13:34:42 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 270.136 ms - -[0m
+2023-02-13 13:35:31 info: [0mOPTIONS /api/profile/about [32m204[0m 0.094 ms - 0[0m
+2023-02-13 13:35:31 info: [0mGET /api/profile/about [33m404[0m 0.385 ms - 156[0m
+2023-02-13 13:36:10 info: [0mOPTIONS /api/profile/about [32m204[0m 0.103 ms - 0[0m
+2023-02-13 13:36:10 info: [0mGET /api/profile/about [33m404[0m 0.465 ms - 156[0m
+2023-02-13 13:39:27 info: [0mOPTIONS /api/profile/about [32m204[0m 0.145 ms - 0[0m
+2023-02-13 13:39:27 info: [0mGET /api/profile/about [33m404[0m 0.493 ms - 156[0m
+2023-02-13 13:40:21 info: [0mOPTIONS /api/profile/about [32m204[0m 0.124 ms - 0[0m
+2023-02-13 13:40:21 info: [0mGET /api/profile/about [33m404[0m 0.593 ms - 156[0m
+2023-02-13 13:40:28 info: [0mOPTIONS /users [32m204[0m 0.092 ms - 0[0m
+2023-02-13 13:40:28 info: [0mGET /users [36m304[0m 655.735 ms - -[0m
+2023-02-13 13:40:30 info: [0mOPTIONS /api/profile/about [32m204[0m 0.101 ms - 0[0m
+2023-02-13 13:40:30 info: [0mGET /api/profile/about [33m404[0m 0.553 ms - 156[0m
+2023-02-13 13:40:44 info: [0mOPTIONS /api/profile/about [32m204[0m 0.117 ms - 0[0m
+2023-02-13 13:40:44 info: [0mGET /api/profile/about [33m404[0m 0.585 ms - 156[0m
+2023-02-13 13:44:09 info: [0mOPTIONS /api/profile/about [32m204[0m 0.097 ms - 0[0m
+2023-02-13 13:44:09 info: [0mGET /api/profile/about [33m404[0m 0.422 ms - 156[0m
+2023-02-13 13:44:16 info: [0mOPTIONS /api/profile/about [32m204[0m 0.094 ms - 0[0m
+2023-02-13 13:44:16 info: [0mGET /api/profile/about [33m404[0m 0.536 ms - 156[0m
+2023-02-13 13:45:29 info: [0mOPTIONS /api/profile/about [32m204[0m 0.188 ms - 0[0m
+2023-02-13 13:45:29 info: [0mGET /api/profile/about [33m404[0m 0.444 ms - 156[0m
+2023-02-13 13:45:51 info: [0mOPTIONS /api/profile/about [32m204[0m 0.096 ms - 0[0m
+2023-02-13 13:45:51 info: [0mGET /api/profile/about [33m404[0m 0.577 ms - 156[0m
+2023-02-13 13:46:03 info: [0mOPTIONS /api/profile/about [32m204[0m 0.134 ms - 0[0m
+2023-02-13 13:46:03 info: [0mGET /api/profile/about [33m404[0m 0.496 ms - 156[0m
+2023-02-13 13:47:04 info: [0mOPTIONS /api/profile/about [32m204[0m 0.101 ms - 0[0m
+2023-02-13 13:47:04 info: [0mGET /api/profile/about [33m404[0m 0.535 ms - 156[0m
+2023-02-13 13:50:35 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-02-13 13:50:36 info: [0mGET /users [36m304[0m 731.433 ms - -[0m
+2023-02-13 13:50:37 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.098 ms - 0[0m
+2023-02-13 13:50:37 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 306.037 ms - -[0m
+2023-02-13 13:50:37 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.105 ms - 0[0m
+2023-02-13 13:50:37 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.137 ms - 0[0m
+2023-02-13 13:50:37 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.072 ms - 0[0m
+2023-02-13 13:50:38 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 322.712 ms - -[0m
+2023-02-13 13:50:38 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 330.461 ms - -[0m
+2023-02-13 13:50:38 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 446.989 ms - -[0m
+2023-02-13 13:50:40 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.132 ms - 0[0m
+2023-02-13 13:50:41 info: [0mPUT /users/cst_qw9PVFXG9e [32m200[0m 787.152 ms - 841[0m
+2023-02-13 13:50:44 info: [0mPUT /users/cst_qw9PVFXG9e [32m200[0m 590.197 ms - 838[0m
+2023-02-13 13:50:45 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.104 ms - 0[0m
+2023-02-13 13:50:46 info: [0mPUT /users/cst_qw9PVFXG9e [32m200[0m 769.977 ms - 841[0m
+2023-02-13 13:50:49 info: [0mPUT /users/cst_qw9PVFXG9e [32m200[0m 583.847 ms - 838[0m
+2023-02-13 14:25:44 info: [0mOPTIONS /users [32m204[0m 0.143 ms - 0[0m
+2023-02-13 14:25:44 info: [0mGET /users [32m200[0m 694.847 ms - -[0m
+2023-02-13 14:25:46 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.814 ms - 0[0m
+2023-02-13 14:25:46 info: [0mGET /users/cst_qw9PVFXG9e [32m200[0m 260.698 ms - 825[0m
+2023-02-13 14:25:46 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.124 ms - 0[0m
+2023-02-13 14:25:46 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.134 ms - 0[0m
+2023-02-13 14:25:46 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.122 ms - 0[0m
+2023-02-13 14:25:46 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 276.724 ms - -[0m
+2023-02-13 14:25:46 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 290.927 ms - -[0m
+2023-02-13 14:25:46 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 300.457 ms - -[0m
+2023-02-13 14:26:57 info: [0mOPTIONS /users [32m204[0m 0.094 ms - 0[0m
+2023-02-13 14:26:57 info: [0mGET /users [36m304[0m 640.771 ms - -[0m
+2023-02-13 15:03:46 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.112 ms - 0[0m
+2023-02-13 15:03:47 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 260.473 ms - -[0m
+2023-02-13 15:03:47 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.092 ms - 0[0m
+2023-02-13 15:03:47 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.113 ms - 0[0m
+2023-02-13 15:03:47 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.067 ms - 0[0m
+2023-02-13 15:03:47 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 252.835 ms - -[0m
+2023-02-13 15:03:47 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 258.199 ms - -[0m
+2023-02-13 15:03:47 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 262.756 ms - -[0m
+2023-02-13 15:03:55 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.101 ms - 0[0m
+2023-02-13 15:03:55 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 296.814 ms - -[0m
+2023-02-13 15:03:58 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.109 ms - 0[0m
+2023-02-13 15:03:58 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 256.846 ms - -[0m
+2023-02-13 15:03:58 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 259.157 ms - -[0m
+2023-02-13 15:04:02 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.100 ms - 0[0m
+2023-02-13 15:04:03 info: [0mPUT /users/cst_qw9PVFXG9e [32m200[0m 561.881 ms - 841[0m
+2023-02-13 15:04:06 info: [0mPUT /users/cst_qw9PVFXG9e [32m200[0m 564.475 ms - 838[0m
+2023-02-13 15:04:21 info: [0mOPTIONS /api/profile/about [32m204[0m 0.094 ms - 0[0m
+2023-02-13 15:04:21 info: [0mGET /api/profile/about [33m404[0m 0.961 ms - 156[0m
+2023-02-13 15:04:25 info: [0mGET /api/profile/about [33m404[0m 0.915 ms - 156[0m
+2023-02-13 15:05:04 info: [0mOPTIONS /api/profile/about [32m204[0m 0.090 ms - 0[0m
+2023-02-13 15:05:04 info: [0mGET /api/profile/about [33m404[0m 0.376 ms - 156[0m
+2023-02-13 15:13:14 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.097 ms - 0[0m
+2023-02-13 15:13:14 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 64.081 ms - 38[0m
+2023-02-13 15:13:19 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 0.094 ms - 0[0m
+2023-02-13 15:13:19 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 78.794 ms - 38[0m
+2023-02-13 15:13:28 info: [0mOPTIONS /users [32m204[0m 0.090 ms - 0[0m
+2023-02-13 15:13:29 info: [0mGET /users [36m304[0m 729.548 ms - -[0m
+2023-02-13 15:13:30 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.106 ms - 0[0m
+2023-02-13 15:13:30 info: [0mGET /users/cst_qw9PVFXG9e [32m200[0m 250.140 ms - 825[0m
+2023-02-13 15:13:30 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.122 ms - 0[0m
+2023-02-13 15:13:30 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.205 ms - 0[0m
+2023-02-13 15:13:30 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.074 ms - 0[0m
+2023-02-13 15:13:31 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 261.493 ms - -[0m
+2023-02-13 15:13:31 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 270.600 ms - -[0m
+2023-02-13 15:13:31 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 280.257 ms - -[0m
+2023-02-13 15:13:41 info: [0mOPTIONS /users/cst_9fKQZmoiiM [32m204[0m 0.116 ms - 0[0m
+2023-02-13 15:13:41 info: [0mGET /users/cst_9fKQZmoiiM [32m200[0m 299.927 ms - 822[0m
+2023-02-13 15:13:41 info: [0mOPTIONS /users/payments/cst_9fKQZmoiiM [32m204[0m 0.099 ms - 0[0m
+2023-02-13 15:13:41 info: [0mOPTIONS /users/subscriptions/cst_9fKQZmoiiM [32m204[0m 0.110 ms - 0[0m
+2023-02-13 15:13:41 info: [0mOPTIONS /users/mandates/cst_9fKQZmoiiM [32m204[0m 0.061 ms - 0[0m
+2023-02-13 15:13:42 info: [0mGET /users/mandates/cst_9fKQZmoiiM [32m200[0m 307.674 ms - 619[0m
+2023-02-13 15:13:42 info: [0mGET /users/subscriptions/cst_9fKQZmoiiM [32m200[0m 310.820 ms - 49[0m
+2023-02-13 15:13:42 info: [0mGET /users/payments/cst_9fKQZmoiiM [32m200[0m 323.954 ms - 40[0m
+2023-02-13 15:13:43 error: [DELETE] /users/cst_9fKQZmoiiM >> StatusCode:: 500, Message:: this.userService.deleteCustomer is not a function
+2023-02-13 15:13:43 info: [0mDELETE /users/cst_9fKQZmoiiM [31m500[0m 87.489 ms - 63[0m
+2023-02-13 15:13:47 info: [0mOPTIONS /users/cst_9fKQZmoiiM [32m204[0m 0.099 ms - 0[0m
+2023-02-13 15:13:47 error: [DELETE] /users/cst_9fKQZmoiiM >> StatusCode:: 500, Message:: this.userService.deleteCustomer is not a function
+2023-02-13 15:13:47 info: [0mDELETE /users/cst_9fKQZmoiiM [31m500[0m 65.422 ms - 63[0m
+2023-02-13 15:13:50 error: [DELETE] /users/cst_9fKQZmoiiM >> StatusCode:: 500, Message:: this.userService.deleteCustomer is not a function
+2023-02-13 15:13:50 info: [0mDELETE /users/cst_9fKQZmoiiM [31m500[0m 63.175 ms - 63[0m
+2023-02-13 15:13:51 error: [DELETE] /users/cst_9fKQZmoiiM >> StatusCode:: 500, Message:: this.userService.deleteCustomer is not a function
+2023-02-13 15:13:51 info: [0mDELETE /users/cst_9fKQZmoiiM [31m500[0m 63.949 ms - 63[0m
+2023-02-13 15:13:53 info: [0mOPTIONS /users/cst_9fKQZmoiiM [32m204[0m 0.099 ms - 0[0m
+2023-02-13 15:13:53 error: [DELETE] /users/cst_9fKQZmoiiM >> StatusCode:: 500, Message:: this.userService.deleteCustomer is not a function
+2023-02-13 15:13:53 info: [0mDELETE /users/cst_9fKQZmoiiM [31m500[0m 63.127 ms - 63[0m
+2023-02-13 15:14:12 info: [0mOPTIONS /users/cst_9fKQZmoiiM [32m204[0m 0.092 ms - 0[0m
+2023-02-13 15:14:12 error: [DELETE] /users/cst_9fKQZmoiiM >> StatusCode:: 500, Message:: this.userService.deleteCustomer is not a function
+2023-02-13 15:14:12 info: [0mDELETE /users/cst_9fKQZmoiiM [31m500[0m 64.091 ms - 63[0m
+2023-02-13 15:14:47 info: =================================
+2023-02-13 15:14:47 info: ======= ENV: development =======
+2023-02-13 15:14:47 info: 🚀 App listening on the port 3000
+2023-02-13 15:14:47 info: =================================
+2023-02-13 15:14:50 info: [0mOPTIONS /users/cst_9fKQZmoiiM [32m204[0m 1.030 ms - 0[0m
+2023-02-13 15:14:51 info: [0mDELETE /users/cst_9fKQZmoiiM [32m200[0m 772.083 ms - 21[0m
+2023-02-13 15:14:54 info: [0mOPTIONS /users [32m204[0m 0.123 ms - 0[0m
+2023-02-13 15:14:55 info: [0mGET /users [32m200[0m 627.097 ms - -[0m
+2023-02-13 15:14:58 info: [0mOPTIONS /users/cst_VqsgX2EZcF [32m204[0m 0.117 ms - 0[0m
+2023-02-13 15:14:58 info: [0mGET /users/cst_VqsgX2EZcF [32m200[0m 287.015 ms - 821[0m
+2023-02-13 15:14:58 info: [0mOPTIONS /users/payments/cst_VqsgX2EZcF [32m204[0m 0.197 ms - 0[0m
+2023-02-13 15:14:58 info: [0mOPTIONS /users/mandates/cst_VqsgX2EZcF [32m204[0m 0.136 ms - 0[0m
+2023-02-13 15:14:58 info: [0mOPTIONS /users/subscriptions/cst_VqsgX2EZcF [32m204[0m 0.098 ms - 0[0m
+2023-02-13 15:14:58 info: [0mGET /users/payments/cst_VqsgX2EZcF [32m200[0m 249.537 ms - 40[0m
+2023-02-13 15:14:59 info: [0mGET /users/mandates/cst_VqsgX2EZcF [32m200[0m 504.620 ms - 611[0m
+2023-02-13 15:14:59 info: [0mGET /users/subscriptions/cst_VqsgX2EZcF [32m200[0m 525.094 ms - 49[0m
+2023-02-13 15:15:01 info: [0mDELETE /users/cst_VqsgX2EZcF [32m200[0m 539.714 ms - 21[0m
+2023-02-13 15:15:03 info: [0mOPTIONS /users [32m204[0m 0.174 ms - 0[0m
+2023-02-13 15:15:04 info: [0mGET /users [32m200[0m 671.401 ms - -[0m
+2023-02-13 15:20:33 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.117 ms - 0[0m
+2023-02-13 15:20:34 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 304.067 ms - -[0m
+2023-02-13 15:20:34 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.137 ms - 0[0m
+2023-02-13 15:20:34 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.150 ms - 0[0m
+2023-02-13 15:20:34 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.137 ms - 0[0m
+2023-02-13 15:20:34 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 255.235 ms - -[0m
+2023-02-13 15:20:34 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 265.076 ms - -[0m
+2023-02-13 15:20:34 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 267.044 ms - -[0m
+2023-02-13 15:20:45 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.139 ms - 0[0m
+2023-02-13 15:20:46 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 270.574 ms - -[0m
+2023-02-13 15:20:46 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.110 ms - 0[0m
+2023-02-13 15:20:46 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 265.250 ms - -[0m
+2023-02-13 15:20:58 info: [0mOPTIONS /users/payments/ [32m204[0m 0.117 ms - 0[0m
+2023-02-13 15:20:58 info: [0mPOST /users/payments/ [32m201[0m 463.638 ms - -[0m
+2023-02-13 15:22:05 info: =================================
+2023-02-13 15:22:05 info: ======= ENV: development =======
+2023-02-13 15:22:05 info: 🚀 App listening on the port 3000
+2023-02-13 15:22:05 info: =================================
+2023-02-13 15:22:29 info: [0mOPTIONS /users [32m204[0m 1.078 ms - 0[0m
+2023-02-13 15:22:30 info: [0mGET /users [32m200[0m 1016.984 ms - -[0m
+2023-02-13 15:22:33 info: [0mOPTIONS /users/cst_9UsBBxD9bd [32m204[0m 0.117 ms - 0[0m
+2023-02-13 15:22:33 info: [0mGET /users/cst_9UsBBxD9bd [32m200[0m 251.023 ms - 828[0m
+2023-02-13 15:22:33 info: [0mOPTIONS /users/payments/cst_9UsBBxD9bd [32m204[0m 0.165 ms - 0[0m
+2023-02-13 15:22:33 info: [0mOPTIONS /users/subscriptions/cst_9UsBBxD9bd [32m204[0m 0.079 ms - 0[0m
+2023-02-13 15:22:33 info: [0mOPTIONS /users/mandates/cst_9UsBBxD9bd [32m204[0m 0.095 ms - 0[0m
+2023-02-13 15:22:33 info: [0mGET /users/subscriptions/cst_9UsBBxD9bd [32m200[0m 266.784 ms - 49[0m
+2023-02-13 15:22:34 info: [0mGET /users/payments/cst_9UsBBxD9bd [32m200[0m 516.900 ms - 40[0m
+2023-02-13 15:22:34 info: [0mGET /users/mandates/cst_9UsBBxD9bd [32m200[0m 524.587 ms - 619[0m
+2023-02-13 15:22:35 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.127 ms - 0[0m
+2023-02-13 15:22:35 info: [0mGET /users/cst_qw9PVFXG9e [32m200[0m 293.428 ms - 937[0m
+2023-02-13 15:22:35 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.122 ms - 0[0m
+2023-02-13 15:22:35 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.085 ms - 0[0m
+2023-02-13 15:22:35 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.080 ms - 0[0m
+2023-02-13 15:22:36 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 255.038 ms - -[0m
+2023-02-13 15:22:36 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 271.322 ms - -[0m
+2023-02-13 15:22:36 info: [0mGET /users/payments/cst_qw9PVFXG9e [32m200[0m 374.070 ms - -[0m
+2023-02-13 15:22:37 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 246.813 ms - -[0m
+2023-02-13 15:22:37 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 259.961 ms - -[0m
+2023-02-13 15:22:37 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 264.698 ms - -[0m
+2023-02-13 15:22:37 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 274.505 ms - -[0m
+2023-02-13 15:22:39 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 282.280 ms - -[0m
+2023-02-13 15:22:40 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 257.392 ms - -[0m
+2023-02-13 15:22:40 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 261.132 ms - -[0m
+2023-02-13 15:22:40 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 282.716 ms - -[0m
+2023-02-13 15:22:41 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.118 ms - 0[0m
+2023-02-13 15:22:42 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 402.723 ms - -[0m
+2023-02-13 15:22:42 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.115 ms - 0[0m
+2023-02-13 15:22:42 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.118 ms - 0[0m
+2023-02-13 15:22:42 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.137 ms - 0[0m
+2023-02-13 15:22:42 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 265.844 ms - -[0m
+2023-02-13 15:22:42 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 282.245 ms - -[0m
+2023-02-13 15:22:42 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 298.752 ms - -[0m
+2023-02-13 15:22:44 info: [0mOPTIONS /users/cst_ToFft4zUAd [32m204[0m 0.104 ms - 0[0m
+2023-02-13 15:22:44 info: [0mGET /users/cst_ToFft4zUAd [36m304[0m 271.941 ms - -[0m
+2023-02-13 15:22:44 info: [0mOPTIONS /users/payments/cst_ToFft4zUAd [32m204[0m 0.140 ms - 0[0m
+2023-02-13 15:22:44 info: [0mOPTIONS /users/mandates/cst_ToFft4zUAd [32m204[0m 0.075 ms - 0[0m
+2023-02-13 15:22:44 info: [0mOPTIONS /users/subscriptions/cst_ToFft4zUAd [32m204[0m 0.131 ms - 0[0m
+2023-02-13 15:22:44 info: [0mGET /users/mandates/cst_ToFft4zUAd [36m304[0m 259.156 ms - -[0m
+2023-02-13 15:22:44 info: [0mGET /users/subscriptions/cst_ToFft4zUAd [36m304[0m 278.126 ms - -[0m
+2023-02-13 15:22:44 info: [0mGET /users/payments/cst_ToFft4zUAd [36m304[0m 299.207 ms - -[0m
+2023-02-13 15:22:46 info: [0mOPTIONS /users/cst_9UsBBxD9bd [32m204[0m 0.113 ms - 0[0m
+2023-02-13 15:22:46 info: [0mGET /users/cst_9UsBBxD9bd [36m304[0m 269.991 ms - -[0m
+2023-02-13 15:22:46 info: [0mOPTIONS /users/payments/cst_9UsBBxD9bd [32m204[0m 0.111 ms - 0[0m
+2023-02-13 15:22:46 info: [0mOPTIONS /users/mandates/cst_9UsBBxD9bd [32m204[0m 0.073 ms - 0[0m
+2023-02-13 15:22:46 info: [0mOPTIONS /users/subscriptions/cst_9UsBBxD9bd [32m204[0m 0.094 ms - 0[0m
+2023-02-13 15:22:47 info: [0mGET /users/mandates/cst_9UsBBxD9bd [36m304[0m 281.550 ms - -[0m
+2023-02-13 15:22:47 info: [0mGET /users/payments/cst_9UsBBxD9bd [36m304[0m 287.562 ms - -[0m
+2023-02-13 15:22:47 info: [0mGET /users/subscriptions/cst_9UsBBxD9bd [36m304[0m 294.772 ms - -[0m
+2023-02-13 15:22:49 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.111 ms - 0[0m
+2023-02-13 15:22:49 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 274.354 ms - -[0m
+2023-02-13 15:22:49 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.167 ms - 0[0m
+2023-02-13 15:22:49 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.114 ms - 0[0m
+2023-02-13 15:22:49 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.122 ms - 0[0m
+2023-02-13 15:22:50 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 251.163 ms - -[0m
+2023-02-13 15:22:50 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 278.578 ms - -[0m
+2023-02-13 15:22:50 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 289.452 ms - -[0m
+2023-02-13 15:22:52 info: [0mGET /users/cst_qw9PVFXG9e [36m304[0m 253.617 ms - -[0m
+2023-02-13 15:22:52 info: [0mGET /users/mandates/cst_qw9PVFXG9e [36m304[0m 250.577 ms - -[0m
+2023-02-13 15:22:52 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [36m304[0m 260.052 ms - -[0m
+2023-02-13 15:22:52 info: [0mGET /users/payments/cst_qw9PVFXG9e [36m304[0m 266.750 ms - -[0m
+2023-02-13 15:22:57 info: [0mOPTIONS /users [32m204[0m 0.111 ms - 0[0m
+2023-02-13 15:22:58 info: [0mGET /users [36m304[0m 680.506 ms - -[0m
+2023-02-13 15:23:00 info: [0mOPTIONS /api/profile/about [32m204[0m 0.828 ms - 0[0m
+2023-02-13 15:23:00 info: [0mGET /api/profile/about [33m404[0m 1.714 ms - 156[0m
+2023-02-13 18:50:11 info: [0mOPTIONS /users [32m204[0m 4.438 ms - 0[0m
+2023-02-13 18:50:12 info: [0mGET /users [32m200[0m 1076.733 ms - -[0m
+2023-02-13 18:50:14 info: [0mOPTIONS /users/cst_qw9PVFXG9e [32m204[0m 0.109 ms - 0[0m
+2023-02-13 18:50:15 info: [0mGET /users/cst_qw9PVFXG9e [32m200[0m 469.340 ms - 937[0m
+2023-02-13 18:50:15 info: [0mOPTIONS /users/payments/cst_qw9PVFXG9e [32m204[0m 0.148 ms - 0[0m
+2023-02-13 18:50:15 info: [0mOPTIONS /users/subscriptions/cst_qw9PVFXG9e [32m204[0m 0.074 ms - 0[0m
+2023-02-13 18:50:15 info: [0mOPTIONS /users/mandates/cst_qw9PVFXG9e [32m204[0m 0.067 ms - 0[0m
+2023-02-13 18:50:15 info: [0mGET /users/subscriptions/cst_qw9PVFXG9e [32m200[0m 252.232 ms - 49[0m
+2023-02-13 18:50:15 info: [0mGET /users/mandates/cst_qw9PVFXG9e [32m200[0m 519.636 ms - 623[0m
+2023-02-13 18:50:15 info: [0mGET /users/payments/cst_qw9PVFXG9e [32m200[0m 546.122 ms - -[0m
+2023-02-13 18:50:24 info: [0mOPTIONS /api/profile/about [32m204[0m 0.109 ms - 0[0m
+2023-02-13 18:50:24 info: [0mGET /api/profile/about [33m404[0m 0.980 ms - 156[0m

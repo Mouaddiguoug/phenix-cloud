@@ -223,3 +223,33 @@
 2023-02-09 12:43:45 info: ======= ENV: development =======
 2023-02-09 12:43:45 info: 🚀 App listening on the port 3000
 2023-02-09 12:43:45 info: =================================
+2023-02-09 12:44:54 info: =================================
+2023-02-09 12:44:54 info: ======= ENV: development =======
+2023-02-09 12:44:54 info: 🚀 App listening on the port 3000
+2023-02-09 12:44:54 info: =================================
+2023-02-09 12:45:56 info: [0mGET /main.7b9d21710cee108a52e4.hot-update.json [33m404[0m 4.999 ms - 180[0m
+2023-02-09 12:45:56 info: [0mGET /clients [33m404[0m 1.187 ms - 146[0m
+2023-02-09 12:46:12 info: [0mGET /clients [33m404[0m 0.690 ms - 146[0m
+2023-02-09 12:46:45 info: [0mOPTIONS /users [32m204[0m 0.226 ms - 0[0m
+2023-02-09 12:46:46 info: [0mGET /users [36m304[0m 1078.040 ms - -[0m
+2023-02-09 12:46:50 info: [0mGET /users [36m304[0m 637.256 ms - -[0m
+2023-02-09 12:46:51 info: [0mOPTIONS /users/cst_QpkYk35j6i [32m204[0m 0.135 ms - 0[0m
+2023-02-09 12:46:51 info: [0mGET /users/cst_QpkYk35j6i [36m304[0m 243.087 ms - -[0m
+2023-02-09 12:46:51 info: [0mOPTIONS /users/payments/cst_QpkYk35j6i [32m204[0m 0.098 ms - 0[0m
+2023-02-09 12:46:51 info: [0mOPTIONS /users/subscriptions/cst_QpkYk35j6i [32m204[0m 0.087 ms - 0[0m
+2023-02-09 12:46:51 info: [0mOPTIONS /users/mandates/cst_QpkYk35j6i [32m204[0m 0.120 ms - 0[0m
+2023-02-09 12:46:52 info: [0mGET /users/subscriptions/cst_QpkYk35j6i [36m304[0m 241.085 ms - -[0m
+2023-02-09 12:46:52 info: [0mGET /users/mandates/cst_QpkYk35j6i [36m304[0m 500.380 ms - -[0m
+2023-02-09 12:46:52 info: [0mGET /users/payments/cst_QpkYk35j6i [36m304[0m 515.609 ms - -[0m
+2023-02-09 12:47:23 info: [0mOPTIONS /users/mandates/cst_QpkYk35j6i [32m204[0m 0.105 ms - 0[0m
+2023-02-09 12:47:24 info: [0mPOST /users/mandates/cst_QpkYk35j6i [32m201[0m 509.158 ms - 2[0m
+2023-02-09 12:47:27 info: [0mOPTIONS /users [32m204[0m 0.121 ms - 0[0m
+2023-02-09 12:47:28 info: [0mGET /users [32m200[0m 639.231 ms - -[0m
+2023-02-09 12:47:28 info: [0mOPTIONS /users/cst_QpkYk35j6i [32m204[0m 0.116 ms - 0[0m
+2023-02-09 12:47:29 info: [0mGET /users/cst_QpkYk35j6i [32m200[0m 249.109 ms - 825[0m
+2023-02-09 12:47:29 info: [0mOPTIONS /users/payments/cst_QpkYk35j6i [32m204[0m 0.141 ms - 0[0m
+2023-02-09 12:47:29 info: [0mOPTIONS /users/subscriptions/cst_QpkYk35j6i [32m204[0m 0.145 ms - 0[0m
+2023-02-09 12:47:29 info: [0mOPTIONS /users/mandates/cst_QpkYk35j6i [32m204[0m 0.098 ms - 0[0m
+2023-02-09 12:47:29 info: [0mGET /users/subscriptions/cst_QpkYk35j6i [36m304[0m 276.514 ms - -[0m
+2023-02-09 12:47:29 info: [0mGET /users/payments/cst_QpkYk35j6i [36m304[0m 281.186 ms - -[0m
+2023-02-09 12:47:29 info: [0mGET /users/mandates/cst_QpkYk35j6i [32m200[0m 281.346 ms - 619[0m

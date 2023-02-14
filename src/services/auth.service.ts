@@ -60,7 +60,6 @@ class AuthService {
     const { access_token } = accessToken.data;
 
     console.log(access_token);
-    
 
     const secretKey: string = SECRET_KEY;
 

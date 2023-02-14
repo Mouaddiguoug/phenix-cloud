@@ -1,0 +1,2 @@
+2023-02-14 09:29:57 error: [GET] /users >> StatusCode:: 404, Message:: Authentication token missing
+2023-02-14 09:32:44 error: [GET] /users >> StatusCode:: 404, Message:: Authentication token missing

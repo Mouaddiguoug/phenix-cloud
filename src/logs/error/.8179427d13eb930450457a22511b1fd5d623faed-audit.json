@@ -74,6 +74,16 @@
             "date": 1675931515752,
             "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-09.log",
             "hash": "6cb8764f8a24273b0e47cd0531cc563b752a3ff3986a0dc375ef0c1884ab8cbb"
+        },
+        {
+            "date": 1676287296911,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-13.log",
+            "hash": "482a92fe77d65a18ae44dcf8066443fa3d9eb13f7adacec210448fcb4ab71ccd"
+        },
+        {
+            "date": 1676363372313,
+            "name": "C:\\Users\\Devops3\\Downloads\\typescript-express-starter-master\\typescript-express-starter-master\\lib\\default\\src\\logs\\error\\2023-02-14.log",
+            "hash": "4c2baa4a2793757b48f4940c8925f71b8ccdd81ffc0a713b1cc13970da304560"
         }
     ],
     "hashType": "sha256"
