@@ -13,7 +13,7 @@ class adminRoute implements Routes {
   }
 
   private initializeRoutes() {
-    this.router.put(`${this.path}/:id`, this.admin.updateAdmin);
+    this.router.put(`${this.path}/:id`, authMiddleware, this.admin.updateAdmin);
   }
 }
 
