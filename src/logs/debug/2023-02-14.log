@@ -2389,3 +2389,9 @@
 2023-02-14 10:31:47 info: [0mGET /users/payments/cst_qw9PVFXG9e [32m200[0m 302.922 ms - -[0m
 2023-02-14 10:31:47 info: [0mGET /users [36m304[0m 562.988 ms - -[0m
 2023-02-14 10:31:48 info: [0mGET /users [36m304[0m 617.069 ms - -[0m
+2023-02-14 10:40:21 info: =================================
+2023-02-14 10:40:21 info: ======= ENV: development =======
+2023-02-14 10:40:21 info: 🚀 App listening on the port 3000
+2023-02-14 10:40:21 info: =================================
+2023-02-14 10:40:23 info: [0mOPTIONS /admin/morgan@gmail.com [32m204[0m 1.051 ms - 0[0m
+2023-02-14 10:40:23 info: [0mPUT /admin/morgan@gmail.com [32m200[0m 412.748 ms - 38[0m
