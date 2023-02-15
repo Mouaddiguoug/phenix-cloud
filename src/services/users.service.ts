@@ -49,7 +49,7 @@ class UserService {
     try {
       const mollieClient = createMollieClient({ apiKey: process.env.APIKEY });
       console.log(paymentData.data.paymentMethod);
-      
+
       const payment = await mollieClient.customerPayments.create({
         customerId: paymentData.data.customerId,
         amount: {
@@ -62,13 +62,14 @@ class UserService {
           customerId: paymentData.data.customerId,
         },
         mandateId: paymentData.data.mandateId.id,
-        method: paymentData.data.paymentMethod
+        method: paymentData.data.paymentMethod,
       });
-      
+      console.log(payment);
+
       return payment;
     } catch (error) {
       console.log(error);
-      
+
       return error;
     }
   }
@@ -78,12 +79,10 @@ class UserService {
       const mollieClient = createMollieClient({ apiKey: process.env.APIKEY });
 
       const foundMandates = await this.getMandates(userId);
-      
 
       if (foundMandates.length > 0) return foundMandates[0];
 
       console.log(mandateData.data.signatureDate);
-      
 
       const mandate = await mollieClient.customerMandates.create({
         customerId: userId,
@@ -94,7 +93,7 @@ class UserService {
         signatureDate: mandateData.data.signatureDate,
         mandateReference: uid(16),
       });
-      
+
       return mandate[0];
     } catch (error) {
       return error;
@@ -114,7 +113,6 @@ class UserService {
 
   public async createSubscription(subscriptionData) {
     try {
-      
       const mollieClient = createMollieClient({ apiKey: process.env.APIKEY });
       const subscription = await mollieClient.customerSubscriptions.create({
         customerId: subscriptionData.data.customerId,
@@ -127,10 +125,26 @@ class UserService {
         mandateId: subscriptionData.data.mandateId,
         times: subscriptionData.data.times,
       });
-      
+
       return subscription;
     } catch (error) {
       return error;
+    }
+  }
+
+  public async cancelSubscription(subscriptionId, customer) {
+    try {
+      const {customerId} = customer;
+      const mollieClient = createMollieClient({ apiKey: process.env.APIKEY });
+      
+      
+      const canceledSubscription = await mollieClient.customerSubscriptions.cancel(subscriptionId, {
+        customerId: customerId,
+      });
+
+      return canceledSubscription;
+    } catch (error) {
+      console.log(error);
     }
   }
 
@@ -166,7 +180,7 @@ class UserService {
           country: userData.data.country,
           nSiren: userData.data.isCompany ? userData.data.nSiren : '',
           isCompany: userData.data.isCompany,
-          status: userData.data.status
+          status: userData.data.status,
         },
       });
 
@@ -209,7 +223,7 @@ class UserService {
         country: userData.data.country,
         nSiren: userData.data.nSiren,
         isCompany: userData.data.isCompany,
-        status: userData.data.status
+        status: userData.data.status,
       },
     });
 

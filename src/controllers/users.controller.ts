@@ -71,8 +71,8 @@ class UsersController {
 
   public createSubscription = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
     try {
-      const subscriptionData = req.body
-      
+      const subscriptionData = req.body;
+
       const subscription = await this.userService.createSubscription(subscriptionData);
 
       res.status(200).json({ subscription });
@@ -121,6 +121,18 @@ class UsersController {
       await this.userService.deleteCustomer(userId);
 
       res.status(200).json({ message: 'deleted' });
+    } catch (error) {
+      next(error);
+    }
+  };
+
+  public cancelSubscription = async (req: Request, res: Response, next: NextFunction): Promise<void> => {
+    try {
+      const subscriptionId = String(req.params.id);
+      const customer = req.body;
+      const canceled = await this.userService.cancelSubscription(subscriptionId, customer);
+
+      res.status(200).json({ message: canceled });
     } catch (error) {
       next(error);
     }

@@ -26,6 +26,7 @@ class UsersRoute implements Routes {
     this.router.post(`${this.path}`, authMiddleware, this.usersController.createCustomer);
     this.router.put(`${this.path}/:id`, authMiddleware, this.usersController.updateUser);
     this.router.delete(`${this.path}/:id`, authMiddleware, this.usersController.deleteCustomer);
+    this.router.delete(`${this.path}/subscriptions/:id`, authMiddleware, this.usersController.cancelSubscription);
   }
 }
 
